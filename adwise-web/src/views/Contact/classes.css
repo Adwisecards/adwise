@@ -1,0 +1,148 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    font-family: 'Atyp Text';
+    z-index: 1;
+
+    /*max-width: 1200px;*/
+    width: 100%;
+    margin: 0 auto;
+    /*padding: 24px 0;*/
+}
+.container:after{
+    content: none;
+}
+
+.body{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+.body__left{
+    background: #FFFFFF;
+    border-radius: 10px;
+    width: 100%;
+}
+.body__right{
+    width: 310px;
+    margin-left: 24px;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.footer{
+    margin-top: auto;
+}
+
+
+.block-user{
+    display: flex;
+    align-items: center;
+    padding: 3px;
+}
+.block-user__left{
+    height: 100%;
+    padding: 24px 50px;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 1;
+    border-radius: 7px;
+    overflow: hidden;
+}
+.block-user__left-background{
+    background: #18B975;
+    opacity: 0.07;
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.block-user__body{
+    margin-left: 24px;
+}
+.block-user__right{
+    margin-left: auto;
+}
+
+.user-logo {
+    width: 120px;
+    height: 120px;
+    border: 3px solid #18B975;
+    border-radius: 100%;
+    background-color: white;
+    padding: 3px;
+    position: relative;
+}
+.user-logo-shadow {
+    background: #18B975;
+    opacity: 0.5;
+    filter: blur(14px);
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: -1;
+}
+.user-logo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    object-fit: cover;
+}
+.user-logo svg{
+    margin: -2px;
+    width: calc(100% + 4px);
+    height: calc(100% + 5px);
+}
+
+.user-qr-code{
+    width: 125px;
+    height: 125px;
+}
+.user-qr-code img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.typography__user-name{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 26px;
+    color: #000000;
+
+    margin-bottom: 8px;
+}
+.typography__user-role{
+    font-size: 14px;
+    line-height: 17px;
+    font-feature-settings: 'ss02' on;
+    color: #000000;
+    opacity: 0.6;
+
+    margin-bottom: 18px;
+}
+
+
+.button__user-subscribe{
+    background: #18B975;
+    border-radius: 6px;
+    padding: 8px 24px;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+
+    border: none!important;
+    outline: none!important;
+}

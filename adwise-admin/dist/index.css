@@ -1,0 +1,96 @@
+* {
+    /* position: relative; */
+    box-sizing: border-box;
+}
+
+:root {
+    --gray: #A8ABB8;
+    --primary: #8152E4;
+    --secondary: #ED8E00;
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  /* AtypText-Bold.woff2' */
+  
+   @font-face {
+    font-family: 'Atyp Text';
+    src: url('../src/assets/fonts/atyptext-bold.woff2') format('woff2'),
+        url('../src/assets/fonts/atyptext-bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'Atyp Text';
+    src: url('../src/assets/fonts/atyptext-regular.woff2') format('woff2'),
+        url('../src/assets/fonts/atyptext-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'Atyp Text';
+    src: url('../src/assets/fonts/atyptext-semibold.woff2') format('woff2'),
+        url('../src/assets/fonts/atyptext-semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  
+  @font-face {
+    font-family: 'Atyp Text';
+    src: url('../src/assets/fonts/atyptext-light.woff2') format('woff2'),
+        url('../src/assets/fonts/atyptext-light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'Atyp Text';
+    src: url('../src/assets/fonts/atyptext-thin.woff2') format('woff2'),
+        url('../src/assets/fonts/atyptext-thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'Atyp Text';
+    src: url('../src/assets/fonts/atyptext-medium.woff2') format('woff2'),
+        url('../src/assets/fonts/atyptext-medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+  }
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+
+.fading {
+    color: var(--gray);
+}
+
+.page {
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+}

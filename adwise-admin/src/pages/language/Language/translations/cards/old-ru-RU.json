@@ -1,0 +1,580 @@
+{
+  "start_screen": {
+    "buttons": {
+      "registration": "Регистрация",
+      "authorization": "Авторизация",
+      "privacy_policy": "Политика конфиденциальности",
+      "terms_use": "Пользовательское соглашение",
+      "cancel": "Отмена"
+    },
+    "political": {
+      "start": "Продолжая, я подтверждаю, что ознакомлен с ",
+      "privacyPolicy": "Политикой конфиденциальности, ",
+      "termsUse": "Пользовательским соглашением\n",
+      "end": "и принимаю их условия"
+    }
+  },
+  "registration": {
+    "header": {
+      "welcome": "Добро\nпожаловать",
+      "phone_number": "Введите\nномер телефона",
+      "enter_code_sms": "Введите\nкод из смс"
+    },
+    "stage_one": {
+      "please_register": "Пожалуйста, зарегистрируйтесь",
+      "already_registered": "Уже зарегистрированы?"
+    },
+    "stage_two": {
+      "send_confirmation_code": "Мы отправим на него код\nподтверждения"
+    },
+    "stage_three": {
+      "sent_to": "Отправлен на\n {{phone}}",
+      "code_valid_for": "Код действителен в течении ",
+      "code_timed_request_new": "Время кода истекло. Запросите новый",
+      "didnt_receive_code": "Не пришел код?"
+    },
+    "forms": {
+      "phone_number": "Ваш номер телефона"
+    },
+    "buttons": {
+      "by_phone": "По телефону",
+      "login_here": "Войти здесь",
+      "proceed": "Продолжить",
+      "resend": "Отправить повторно"
+    },
+    "errors": {
+      "number_entered_incorrectly": "Не правильно введен номер",
+      "number_registered_system": "Данный номер уже зарегистрирован в системе"
+    },
+    "loadings": {
+      "checks_phone": "Проверяет телефона на наличие в базе...",
+      "send_code_phone_number": "Отправляем код подтверждения на ваш номер телефона"
+    },
+    "modal_filing": {
+      "title": "Успешно",
+      "message": "Регистрация успешно завершена. \nЖелаете заполнить профиль сейчас?",
+      "button_go": "Заполнить сейчас",
+      "button_skip": "Пропустить"
+    }
+  },
+  "authorization": {
+    "header": {
+      "entry": "Вход"
+    },
+    "forms": {
+      "phone": "Введите номер телефона",
+      "password": "Введите пароль"
+    },
+    "buttons": {
+      "forgot_password": "Забыли пароль?",
+      "entry": "Войти"
+    },
+    "errors": {
+      "wrong_login_password": "Неверный логин или пароль"
+    }
+  },
+  "reset_password": {
+    "home": {
+      "title": "Сбросить\nпароль",
+      "button_reset": "Сбросить по телефону"
+    },
+    "phone": {
+      "message": "Восстановление\nпо номеру телефона",
+      "button_request": "Запросить",
+      "dialog_message": "Процесс сброса пароля"
+    },
+    "verification": {
+      "message": "Введите код\nполученный из смс",
+      "message_repeat_code": "Не пришел код?",
+      "button_repeat_code": "Отправить повторно",
+      "button_send_code": "Сбросить"
+    }
+  },
+  "dashboard": {
+    "businessCards": {
+      "personal": "Личная визитка",
+      "working": "Рабочая визитка",
+      "installed_active_business_card": "Устанавливаем активную визитную карточку, пожалуйста, подождите завершения операции."
+    },
+    "recommendation": {
+      "title": "Мои рекомендации",
+      "empty": "Пока у вас нет рекомендаций"
+    },
+    "connections": {
+      "title": "Мои связи",
+      "empty": "Пока у вас нет связей"
+    },
+    "qr_code": {
+      "title": "Поместите \nQR-код в рамку"
+    },
+    "notification": {
+      "subscription": {
+        "message": "Подписка на компанию оформлена"
+      },
+      "contact_request": {
+        "title": "Запрос на обмен визитками",
+        "message": "Вы успешно обменялись визитными карточками с пользователем."
+      },
+      "purchase_added": {
+        "title": "Покупка создана",
+        "message": "Вы успешно создали заказ."
+      },
+      "purchase_confirmed": {
+        "title": "Покупка оплачена",
+        "message": "Вы успешно оплатили заказ."
+      }
+    },
+    "errors": {
+      "organization_empty": {
+        "title": "Системное уведомление",
+        "message": "Данная ораганизация не найдена в системе"
+      },
+      "coupon_empty": {
+        "title": "Системное уведомление",
+        "message": "Данный купон не найдена в системе"
+      }
+    }
+  },
+  "my_coupons": {
+    "title": "Мои купоны",
+    "sections": {
+      "fixed": {
+        "title": "Закреплённые купоны"
+      }
+    }
+  },
+  "coupon": {
+    "terms_action": "Terms of action",
+    "cashback_information": "1 уровень {{cashbackFirstLevel}}% / 2–21 уровень {{cashbackOtherLevel}}%"
+  },
+  "payments": {
+    "title": "Мои заказы",
+    "title_archive": "Архивные заказы",
+    "total_count_purchase": "Товаров и услуг {{coupons}} шт",
+    "success_send_purchase": "Вы успешно отправили покупку \"{{couponName}}\"",
+    "success_cash_payment": "Спасибо. После подтверждения оплаты кассиром заказ будет завершен.",
+    "tabs": {
+      "current": "Текущие",
+      "history": "Завершенные"
+    },
+    "notifications": {
+      "reviewed_successfully": "Отзыв успешно оставлен",
+      "reviewed_error": "Произошли проблемы при отправке отзыва.",
+      "tips_error": "Произошли проблемы при отправке чаевых."
+    }
+  },
+  "purchase": {
+    "order": "Заказ",
+    "text_loading": "Идет загрузка заказа...",
+    "purchase_data": "Данные покупки",
+    "purchase_payment": "Оплата покупки",
+    "order_not_found": "Заказ не найден",
+    "created_by": "Создан",
+    "paid_by": "Оплачен",
+    "completed_by": "Завершён",
+    "purchase_amount": "Сумма",
+    "cashback_amount": "Сумма кэшбэка",
+    "order_number": "Номер заказа",
+    "seller": "Продавец",
+    "paid_points": "Оплачено баллами",
+    "cashier_title": "Вас обслуживал",
+    "send_error_purchase": "Сообщить о проблеме",
+    "success_comment_send": "Отзыв успешно отправлен",
+    "bonuses": {
+      "my_bonus": "Ваши бонусы: {{count}}",
+      "placeholder": "Кол-во бонусов",
+      "button_max": "Макс. {{count}}",
+      "hint": "Оплата до 99% от стоимости покупки. При вводе баллов осуществляется пересчет итоговой суммы."
+    },
+    "comment": {
+      "title": "Комментарий к заказу",
+      "placeholder": "Удобное время, доставка и т.д."
+    },
+    "controls": {
+      "payment_amount": "Оплатить {{sum}} ₽",
+      "button_online": "Онлайн",
+      "button_cash": "Оплатить на кассе",
+      "error_cash": "В данный момент оплата\nналичными недоступна"
+    },
+    "evaluation": {
+      "title": "Оценка",
+      "your_feedback": "Ваш отзыв",
+      "your_feedback_placeholder": "Оставьте ваш отзыв о продукции организации",
+      "button_send": ""
+    },
+    "notification": {
+
+    },
+    "buttons": {
+      "to_archive": "В архив"
+    }
+  },
+  "financial_section": {
+    "header_switch": {
+      "financial_section": "Финансовый\nраздел",
+      "referral_program": "Реферальная\nпрограмма"
+    },
+    "my_finances": {
+      "title": "Мои финансы",
+      "time_updated_at": "Обновлено: ",
+      "your_balance": "Ваш баланс",
+      "to_enrollment": "К зачислению",
+      "button_withdrawal_funds": "Заявка на вывод",
+      "checks": "Чеки",
+      "purchase_amount": "Сумма покупок",
+      "rewards": "Вознаграждения",
+      "used_points_sum": "Оплачено баллами",
+      "withdrawal_sum": "Выплачено"
+    },
+    "history": {
+      "title": "История операций",
+      "row_marketing": "Покупка, «{{couponName}}» {{price}}, {{level}} ур",
+      "row_purchase": "Покупка, «{{couponName}}» {{price}}, кэшбэк",
+      "row_withdrawal": "Вывод баллов и кешбека",
+      "row_use_points": "Использование баллов.\nПокупка, «{{couponName}}»\n«{{organizationName}}»"
+    }
+  },
+  "referral_program": {
+    "founder": {
+      "title": "Мои рекомендации",
+      "not_data": "Нет данных",
+
+      "founder_card": {
+        "total_percentage": "Общий\nпроцент"
+      }
+    }
+  },
+  "account": {
+    "user": {
+      "copy_code": "Код скопирован",
+      "your_code": "Код визитной\nкарточки"
+    },
+    "menu": {
+      "feedback": "Вопрос-ответ",
+      "contacts": "Контакты",
+      "about_app": "О приложении",
+      "legal_information_home": "Правовая информация",
+      "settings": "Настройки",
+      "my_payments_archive": "Архивные заказы",
+      "coupons_disabled": "Скрытые купоны",
+      "exit": "Выход"
+    },
+    "invitation": {
+      "title": "Пригласите компанию в AdWise",
+      "description": "Получите 30$ за каждую компанию, успешно приглашенную в AdWise"
+    },
+    "application": {
+      "description": "Хотите чтобы ваша компания была в этом приложении?",
+      "button": "Подать заявку"
+    }
+  },
+  "profile": {
+    "header": "Профиль",
+    "header_edit": "Редактирование профиля",
+    "name": "Имя",
+    "surname": "Фамилия",
+    "gender": "Пол",
+    "date_birth": "Дата рождения",
+    "phone": "Телефон",
+    "provide_email": "Предоставить E-mail",
+    "provide_phone_number": "Предоставить номер телефона",
+    "edit": "Редактировать",
+    "change": "Изменить",
+    "send_edit": "Готово",
+    "upload_image": "Загрузить изображение",
+    "help_edit_message": "Пожалуйста, укажите реальные данные.\nОни могут пригодиться для восстановления доступа",
+    "updating_contacts": "Обновление контактов",
+    "data_changed_successfully": "Данные успешно изменены. Обновляем ваши контакты"
+  },
+  "purchaseStatus": {
+    "paid": "Оплачен",
+    "canceled": "Возврат",
+    "not_paid": "Неоплачен",
+    "during": "В процессе",
+    "completed": "Завершен"
+  },
+  "common": {
+    "search": "Поиск",
+    "organizations": "Организации",
+    "please_select": "Выберите",
+    "scheduler": "Планировщик",
+    "scan": "Сканировать",
+    "send": "Отправить",
+    "share": "Поделиться",
+    "cashback": "Кэшбэк",
+    "pay": "Оплатить",
+    "hide": "Скрыть",
+    "unsubscribe": "Отписаться",
+    "subscribe": "Подписаться",
+    "receive": "Получить",
+    "clear": "Очистить",
+    "leave_tip": "Оставить чаевые",
+    "loading_progress": "Идёт загрузка",
+    "loading_message": "Идет загрузка...",
+    "contact_support": "Обратиться в службу поддержки",
+    "current_city_empty": "Ваш город",
+    "system_notification": "Системное уведомление",
+    "organization_disabled": "Организация отключена",
+    "coupon_disabled": "Купон отключен",
+    "not_filled": "Не заполнено",
+    "not_data": "Нет данных",
+    "not_specified": "Не указана",
+    "go_back": "Назад",
+    "user_shared_cards": "Пользователь {{firstName} {{lastName}} хочет обменяться с вами визикой \n {{url}}",
+    "user_shared_coupon": "Пользователь {{firstName} {{lastName}} рекомендует вам купон {{couponName}} \n {{url}}",
+    "user_shared_organization": "Пользователь {{firstName} {{lastName}} приглашает вас в компанию {{organizationName}} \n {{url}}",
+    "user_shared_app": "Пользователь {{firstName} {{lastName}} приглашает вас в приложение AdWise \n {{url}}",
+    "create_subscription": "Создаем подписку",
+    "apply": "Применить",
+    "return": "Вернуть",
+    "level": "уровень",
+    "exchange": "Обменяться",
+    "refuse": "Отказаться",
+    "count_mini": "шт",
+    "unpin": "Открепить",
+    "anchor": "Закрепить",
+    "collapse": "Свернуть",
+    "expand_description": "Развернуть описание"
+  },
+  "gender": {
+    "male": "Мужской",
+    "female": "Женский",
+    "other": "Другое"
+  },
+  "permissions": {
+    "title": "Разрешения не представлены",
+
+    "camera": {
+      "not_granted": "Требуется разрешение на использование камеры."
+    },
+    "image_picker": {
+      "not_granted": "Требуется разрешение на использование галереи."
+    },
+    "location": {
+      "message": "Требуется разрешения на использование геолокации пользователя",
+      "not_granted": "Требуется разрешение на использование галереи."
+    }
+  },
+  "notification": {
+    "title": {
+      "success": "Успешно",
+      "error": "Ошибка",
+      "info": "",
+      "system_notification": "Системное уведомление"
+    }
+  },
+  "image_picker": {
+    "choose_gallery": "Выбрать из галереи",
+    "camera": "Камера",
+    "cancel": "Отмена"
+  },
+  "yup": {
+    "string": "Введена не строка",
+    "required": "Обязательно к заполнению",
+    "min": "Минимуми {{length}} символов",
+    "email": "Неверно указана почта",
+    "phone": "Не правильно введен номер телефона",
+    "regexp_url": "Не правильно введен URL вашего сайта"
+  },
+  "bottom_navigation": {
+    "business_cards": "Визитки",
+    "contacts": "Контакты",
+    "coupons": "Купоны",
+    "favorites": "Избранное",
+    "finance": "Финансы",
+    "more": "Еще"
+  },
+  "edit_personal_business_card": {
+    "title": "Редактирование личной визитки",
+    "common_data": "Общие данные",
+    "common_data_message": "Перед заполнением визитной карточки заполните профиль пользователя.",
+    "contact_details": "Контактные данные",
+    "social_networks": "Социальные сети",
+    "personal_information": "Информация о себе",
+    "personal_information_message": "Консультация покупателей по цветам",
+    "business_card_colors": "Выбор цвета визитки",
+    "button_upload_image": "Загрузить изображение",
+
+    "forms": {
+      "activity": {
+        "title": "Профессия/должность",
+        "placeholder": "Продавец"
+      },
+      "phone": {
+        "title": "Телефон",
+        "placeholder": "+7 123 456-78-90"
+      },
+      "email": {
+        "title": "E-mail",
+        "placeholder": "info@wise.win"
+      },
+      "website": {
+        "title": "Сайт",
+        "placeholder": "https://adwise.cards"
+      }
+    },
+    "colors_picker": {
+      "title": "Для выбора цвета\nнажмите на центральный круг.",
+      "transparency": "Прозрачность",
+      "saturation": "Насыщенность",
+      "button_other": "ДРУГОЙ СПОСОБ",
+      "button_save": "Сохранить"
+    },
+    "notifications": {
+      "update": {
+        "title": "Успешно",
+        "message": "Ваши данные успешно изменены"
+      }
+    }
+  },
+  "language_selection": {
+    "title": "Выберите язык"
+  },
+  "about_app": {
+    "title": "О приложении",
+    "version": "Версия",
+    "button_change_history": "История изменений"
+  },
+  "business_card_all_contact": {
+    "title": "Все связи"
+  },
+  "business_card_all_recommendation": {
+    "title": "Все рекомендации"
+  },
+  "certificates": {
+    "title": "Мои сертификаты",
+    "description": "Сертификат — персональное предложение за покупку в компании. Может быть использован один раз",
+    "empty": "У вас пока нет активных \nсертификатов",
+    "what_are_certificates": "Что такое сертификаты",
+    "how_get": "Как получить",
+    "how_use": "Как использовать"
+  },
+  "city_selection": {
+    "title": "Пожалуйста\nвыберите ваш город",
+    "caption": "Чтобы мы могли показывать\nвам релевантые предложения",
+    "button_save": "Сохранить"
+  },
+  "company_pages": {
+    "order": "Заказ",
+    "your_cashback": "Ваш кэшбэк",
+    "suggestions": "Предложения",
+    "organization_coupons": "Купоны организации",
+    "not_filled": "Не заполнено",
+    "you_have_reached_maximum_coupons": "Вы достигли максимального числа купонов",
+    "text_loading": "Идет загрузка...",
+    "schedule_message": "Сегодня с {{from}} до {{to}}",
+    "promotions": "Купоны",
+    "tab_info": "Инфо",
+    "tab_about": "О компании",
+    "tab_contacts": "Контакты",
+    "staff": "Сотрудники",
+    "clients": "Клиенты",
+    "buy_coupon_count": "Количество штук",
+    "create_order": "Сделать заказ",
+    "total_count_create_order": "{{totalCount}} позиций / {{totalSum}} ₽",
+    "operations_history": "История операций",
+    "no_found_active_business_card": "Не найдена активная визитная карточка",
+    "coupon_add_from_user": "Купон добавлен",
+    "create": "Создать",
+    "next": "Далее",
+    "share_company": "Поделиться\nкомпанией",
+    "share": "Поделиться",
+    "share_mini": "Подел.",
+    "done": "Готово",
+    "open_map": "Открыть карту",
+    "map": {
+      "title": "Построение маршрута"
+    }
+  },
+  "contacts": {
+    "title": "Контакты",
+    "not_permission": "Вы не дали разрешения",
+    "button_user_system": "Показать пользователей системы",
+    "message_permission": "Для работы раздела \"Контакты\", нужно предоставить разрешения на использование \"Контакты\".",
+    "button_open_setting": "Открыть настройки",
+    "to_invite": "Пригласить",
+    "open_business_card": "Открыть визитку"
+  },
+  "coupons_disabled": {
+    "title": "Скрытые купоны"
+  },
+  "feedback": {
+    "title": "Обратная связь"
+  },
+  "finance": {
+    "titleLevel1": "1 уровень",
+    "titleLevel2": "чел",
+    "mentor": "Наставник",
+    "not_mentor": "У вас ещё нет наставника",
+    "titleLevel2_21": "2 - 21 уровень",
+    "my_bank_cards": "Мои банковские карты",
+    "percent": "Процент",
+    "all_history": "Вся история",
+    "row_marketing_message": "Покупка, «{{couponName}}» {{sum}}₽, {{level}} ур",
+    "row_purchase_message": "Покупка, «{{props.couponName}}» {{sum}}₽, кэшбэк",
+    "row_withdrawal_message": "Вывод баллов и кешбека",
+    "error_create_withdrawal": "Невозможно создать запрос на вывод средств.",
+    "history": "История",
+    "link_card": "Привязать карту",
+    "general_information": "Общая информация",
+    "personal_level": "Личный\nуровень",
+    "personal_cashback": "Личный\nКэшбэк",
+    "your_cashback": "Ваш\nКэшбэк"
+  },
+  "history_change_app": {
+    "title": "История изменения"
+  },
+  "information_when_exchanging": {
+    "message_loading": "Загружаем ваше приглашение",
+    "exchange_business_cards": "Обмен визитками",
+    "invitation_company": "Приглашение в компанию",
+    "notifications": {
+      "fix_exchange": {
+        "message_success": "Запрос на обмен визитками отправлен",
+        "message_error": "Вы уже подписаны на организацию"
+      },
+      "accept_user": {
+        "message": "Вы обменялись визитками с пользователем"
+      },
+      "cancel_user": {
+
+      }
+    }
+  },
+  "legal_information": {
+    "title": "Правовая информация",
+    "terms_of_use": "Условия использования",
+    "privacy_policy": "Политика конфиденциальности",
+    "cookie_policy": "Политика использования cookie"
+  },
+  "personal_business_card": {
+    "title": "Редактирование\nличной визитки"
+  },
+  "scheduler": {
+    "title": "Планировщик",
+    "button_create": "Добавить задачу"
+  },
+  "selected_city": {
+    "title": "Выбор города или области",
+    "placeholder": "Город или область"
+  },
+  "components": {
+    "coupon": {
+      "organization_disabled": "Организация отключена",
+      "coupon_disabled": "Купон отключена",
+      "coupon_out_stock": "Купона нет в наличии"
+    },
+    "form_sending_tips": {
+      "serves_you": "Вас обслуживает",
+      "did_you_like_everything": "Вам всё понравилось?",
+      "done": "Готово",
+      "check_amount": "Сумма в чеке",
+      "enter_amount": "Введите сумму",
+      "minimum_amount": "Минимальная сумма",
+      "please_describe_situation": "Пожалуйста опишите ситуацию"
+    },
+    "cutaway": {
+      "partner_company": "Партнёрская компания"
+    }
+  }
+}

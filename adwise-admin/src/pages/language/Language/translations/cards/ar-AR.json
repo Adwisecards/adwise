@@ -1,0 +1,705 @@
+{
+  "start_screen": {
+    "buttons": {
+      "registration": "تسجيل",
+      "authorization": "تفويض",
+      "privacy_policy": "سياسة خاصة",
+      "terms_use": "البنود و الظروف",
+      "cancel": "الغاء التحميل"
+    },
+    "political": {
+      "start": "بالمتابعة ، أؤكد أنني قرأت",
+      "privacyPolicy": "سياسة خاصة،",
+      "termsUse": "البنود و الشروط\n",
+      "end": "إنهاء"
+    }
+  },
+  "registration": {
+    "header": {
+      "welcome": "مرحبا",
+      "phone_number": "أدخل رقم هاتفك",
+      "enter_code_sms": "أدخل رمز الرساله"
+    },
+    "stage_one": {
+      "please_register": "الرجاء التسجيل",
+      "already_registered": "مسجل بالفعل؟"
+    },
+    "stage_two": {
+      "send_confirmation_code": "سوف نرسل لك رمز التأكيد"
+    },
+    "stage_three": {
+      "sent_to": "تم الإرسال إلى \n رقم الهاتف",
+      "code_valid_for": "الرمز صالح خلال",
+      "code_timed_request_new": "انتهت صلاحية الرمز. الرجاء طلب رمز آخر",
+      "didnt_receive_code": "لم تتلق رمز؟"
+    },
+    "forms": {
+      "phone_number": "رقم تليفونك"
+    },
+    "buttons": {
+      "by_phone": "عن طريق الهاتف",
+      "login_here": "تسجيل الدخول هنا",
+      "proceed": "إستمرار",
+      "resend": "أعد الإرسال"
+    },
+    "errors": {
+      "number_entered_incorrectly": "الرقم غير صحيح",
+      "number_registered_system": "هذا الرقم مسجل بالفعل في التطبيق"
+    },
+    "loadings": {
+      "checks_phone": "التحقق من رقم هاتفك في قاعدة البيانات",
+      "send_code_phone_number": "تم إرسال رمز التأكيد إلى رقم هاتفك"
+    },
+    "modal_filing": {
+      "title": "تم نجاح العمليه",
+      "message": "تم التسجيل بنجاح. \n هل ترغب في استكمال ملف التعريف الخاص بك الآن؟",
+      "button_go": "أكمل الآن",
+      "button_skip": "تخطى"
+    }
+  },
+  "authorization": {
+    "header": {
+      "entry": "تسجيل الدخول"
+    },
+    "forms": {
+      "phone": "أدخل رقم هاتفك",
+      "password": "ادخل كلمة المرور"
+    },
+    "buttons": {
+      "forgot_password": "نسيت كلمة المرور ؟",
+      "entry": "تسجيل الدخول"
+    },
+    "errors": {
+      "wrong_login_password": "تسجيل الدخول أو كلمة المرور غير صحيحة"
+    }
+  },
+  "reset_password": {
+    "home": {
+      "title": "إعادة تعيين \n كلمة المرور",
+      "button_reset": "إعادة التعيين عن طريق الهاتف"
+    },
+    "phone": {
+      "message": "استعادة \n عن طريق رقم الهاتف",
+      "button_request": "طلب",
+      "dialog_message": "جارٍ إعادة تعيين كلمة المرور"
+    },
+    "verification": {
+      "message": "أدخل الرمز \n من الرسائل القصيرة",
+      "message_repeat_code": "لم يصلك الرمز؟",
+      "button_repeat_code": "أعد الإرسال",
+      "button_send_code": "إعادة ضبط"
+    }
+  },
+  "dashboard": {
+    "businessCards": {
+      "personal": "بطاقة شخصية",
+      "working": "بطاقة العمل",
+      "installed_active_business_card": "وضع بطاقة عمل نشطة ، من فضلك ، انتظر حتى نهاية العملية."
+    },
+    "recommendation": {
+      "title": "توصياتي",
+      "empty": "ليس لديك توصيات بعد"
+    },
+    "connections": {
+      "title": "اتصالاتي",
+      "empty": "ليس لديك اتصالات حتى الان"
+    },
+    "qr_code": {
+      "title": "ضع \n رمز الاستجابة السريعة في الإطار"
+    },
+    "notification": {
+      "subscription": {
+        "message": "لقد اشتركت في هذه الشركه"
+      },
+      "contact_request": {
+        "title": "طلب تبادل بطاقات العمل",
+        "message": "لقد قمت بتبادل بطاقات العمل بنجاح مع المستخدم"
+      },
+      "purchase_added": {
+        "title": "تم إنشاء عملية شراء",
+        "message": "لقد نجحت في إنشاء طلب"
+      },
+      "purchase_confirmed": {
+        "title": "تم دفع  عملية الشراء",
+        "message": "لقد دفعت مقابل طلبك بنجاح"
+      }
+    },
+    "errors": {
+      "organization_empty": {
+        "title": "إخطار النظام",
+        "message": "هذه الشركه غير موجودة في النظام"
+      },
+      "coupon_empty": {
+        "title": "إخطار النظام",
+        "message": "لم يتم العثور على هذه القسيمة في النظام"
+      }
+    }
+  },
+  "my_coupons": {
+    "title": "القسائم الخاصة بي",
+    "sections": {
+      "fixed": {
+        "title": "القسائم المثبتة"
+      }
+    }
+  },
+  "coupon": {
+    "terms_action": "Terms of action",
+    "cashback_information": "المستوى الأول {{cashbackFirstLevel}}٪ \n المستوى الثاني - الحادي والعشرون {{cashbackOtherLevel}}٪"
+  },
+  "payments": {
+    "title": "طلباتي",
+    "title_archive": "أرشفة الطلبات",
+    "total_count_purchase": "قسائم شراء المنتجات والخدمات ",
+    "success_send_purchase": "لقد نجحت في إرسال عملية شراء \"{{القساثم}}\"",
+    "success_cash_payment": "شكرا لك. يرجى انتظار تأكيد الدفع  لإكمال طلبك",
+    "tabs": {
+      "current": "الحالي",
+      "history": "مكتمل"
+    },
+    "notifications": {
+      "reviewed_successfully": "تم إرسال المراجعة بنجاح",
+      "reviewed_error": "حدثت مشاكل أثناء إرسال المراجعة",
+      "tips_error": "حدثت مشاكل أثناء إرسال النصائح"
+    }
+  },
+  "purchase": {
+    "order": "ترتيب",
+    "text_loading": "يتم تحميل الطلب ...",
+    "purchase_data": "معلومات الشراء",
+    "purchase_payment": "دفع عملية الشراء",
+    "order_not_found": "لم يتم العثور على الطلب",
+    "created_by": "تمت العمليه ",
+    "paid_by": "مدفوع",
+    "completed_by": "مكتمل",
+    "purchase_amount": "مجموع",
+    "cashback_amount": "إجمالي الكاش باك",
+    "order_number": "رقم الطلب",
+    "seller": "تاجر",
+    "paid_points": "دفعت مع المكافآت",
+    "cashier_title": "لقد خدمت من قبل",
+    "send_error_purchase": "الإبلاغ عن مشكلة",
+    "success_comment_send": "تم إرسال المراجعة بنجاح",
+    "bonuses": {
+      "my_bonus": "مكافآتك: {{عدد}}",
+      "placeholder": "مقدار المكافآت",
+      "button_max": "الأعلى. {{عدد}}",
+      "hint": "ادفع حتى 99٪ من السعر الإجمالي. في حالة استخدام المكافآت ، سيتم تغيير السعر الإجمالي"
+    },
+    "comment": {
+      "title": "اترك تعليقك",
+      "placeholder": "وقت التسليم"
+    },
+    "controls": {
+      "payment_amount": "ادفع {{sum}} ₽",
+      "button_online": "متصل",
+      "button_cash": "ادفع في أمين الصندوق",
+      "error_cash": "الدفع نقدًا غير متوفر حاليًا"
+    },
+    "evaluation": {
+      "title": "تقييم",
+      "your_feedback": "مراجعتك",
+      "your_feedback_placeholder": "اترك رأيك على منتجات الشركة",
+      "button_send": ""
+    },
+    "notification": {},
+    "buttons": {
+      "to_archive": "أرسل للأرشيف"
+    }
+  },
+  "financial_section": {
+    "header_switch": {
+      "financial_section": "الوحدة المالية",
+      "referral_program": "برنامج الإحالة"
+    },
+    "my_finances": {
+      "title": "مالياتي",
+      "time_updated_at": "محدث:",
+      "your_balance": "رصيدك",
+      "to_enrollment": "سوف تقيد",
+      "button_withdrawal_funds": "طلب سحب",
+      "checks": "الإيصالات",
+      "purchase_amount": "كمية المشتريات",
+      "rewards": "المكافآت",
+      "used_points_sum": "دفعت من المكافآت",
+      "withdrawal_sum": "دفع"
+    },
+    "history": {
+      "title": "تاريخ العمليات",
+      "row_marketing": "شراء ، «{{couponName}}» {{السعر}} ، {{المستوى}} ليفل",
+      "row_purchase": "شراء «{{couponName}}» {{السعر}} استرداد نقدي",
+      "row_withdrawal": "سحب المكافآت واسترداد النقود",
+      "row_use_points": "استخدم مكافآتك. \n شراء ، «{{coupon Name}}» \n «{{company Name}}»"
+    }
+  },
+  "referral_program": {
+    "founder": {
+      "title": "توصياتي",
+      "not_data": "لايوجد بيانات",
+      "founder_card": {
+        "total_percentage": "المجموع \n النسبه المئاويه"
+      }
+    }
+  },
+  "account": {
+    "user": {
+      "copy_code": "تم نسخ الرمز",
+      "your_code": "رمز بطاقة العمل"
+    },
+    "menu": {
+      "feedback": "أسئلة وأجوبة",
+      "contacts": "جهات الاتصال",
+      "about_app": "معلومات عنا",
+      "legal_information_home": "قانوني",
+      "settings": "إعدادات",
+      "my_payments_archive": "أرشفة الطلبات",
+      "coupons_disabled": "القسائم المخفية",
+      "exit": "تسجيل خروج"
+    },
+    "invitation": {
+      "title": "قم بدعوة شركة للانضمام إلى AdWise",
+      "description": "احصل على 30 دولارًا لكل شركة تمت دعوتها إلى AdWise"
+    },
+    "application": {
+      "description": "هل تريد تسجيل شركتك في هذا التطبيق؟",
+      "button": "قم بتقديم طلب"
+    }
+  },
+  "profile": {
+    "header": "الملف الشخصي",
+    "header_edit": "عدل ملفك الشخصي",
+    "name": "الاسم الأول",
+    "surname": "الكنية",
+    "gender": "جنس",
+    "date_birth": "تاريخ الولادة",
+    "phone": "رقم الهاتف",
+    "provide_email": "أدخل بريدك الإلكتروني",
+    "provide_phone_number": "أدخل رقم هاتفك",
+    "edit": "تحرير",
+    "change": "تغيير",
+    "send_edit": "تم",
+    "upload_image": "قم بتنزيل الصورة",
+    "help_edit_message": "الرجاء إدخال البيانات الصحيحة. يمكن استخدامها لاستعادة وصولك",
+    "updating_contacts": "تحديث جهات الاتصال الخاصة بك",
+    "data_changed_successfully": "تم تغيير بياناتك بنجاح. تحديث جهات الاتصال الخاصة بك"
+  },
+  "purchaseStatus": {
+    "paid": "مدفوع",
+    "canceled": "استرداد و عودة",
+    "not_paid": "غير مدفوع",
+    "during": "قيد التحميل",
+    "completed": "مكتمل",
+    "shared": "Подарок",
+    "awaiting_payment": "Ожидает оплаты",
+    "payment_progress": "Идет оплата"
+  },
+  "common": {
+    "search": "بحث",
+    "organizations": "الشركات",
+    "please_select": "تحديد",
+    "scheduler": "مخطط",
+    "scan": "فحص",
+    "send": "إرسال",
+    "share": "مشاركه",
+    "cashback": "استرداد النقود",
+    "pay": "يدفع",
+    "hide": "يخفي",
+    "unsubscribe": "إلغاء الاشتراك",
+    "subscribe": "الإشتراك",
+    "receive": "إستلام",
+    "clear": "إزالة",
+    "leave_tip": "اترك النصائح",
+    "loading_progress": "جار التحميل",
+    "loading_message": "جار التحميل…",
+    "contact_support": "اتصل بخدمة الدعم",
+    "current_city_empty": "مدينتك",
+    "system_notification": "إشعار النظام",
+    "organization_disabled": "الشركة غير متصلة",
+    "coupon_disabled": "القسيمة غير متصلة",
+    "not_filled": "غير مكتمل",
+    "not_data": "لا يوجد بيانات",
+    "not_specified": "لم يذكر",
+    "go_back": "عودة",
+    "user_shared_cards": "يريد المستخدم {{firstName} {{lastName}} تبادل بطاقات العمل معك \n {{url}}",
+    "user_shared_coupon": "يوصيك المستخدم {{firstName} {{lastName}} بقسيمة {{couponName}} \n {{url}}",
+    "user_shared_organization": "يقوم المستخدم {{firstName} {{lastName}} بدعوتك في المؤسسة {{organizationName}} \n {{url}}",
+    "user_shared_app": "يدعوك المستخدم {{firstName} {{lastName}} للانضمام إلى تطبيق AdWise \n {{url}}",
+    "create_subscription": "قم بإنشاء اشتراك",
+    "apply": "تطبيق",
+    "return": "إرجاع",
+    "level": "مستوى",
+    "exchange": "تبادل",
+    "refuse": "رفض",
+    "count_mini": "جهاز كمبيوتر شخصى",
+    "unpin": "فك",
+    "anchor": "شبك",
+    "collapse": "تصغير",
+    "expand_description": "اظهر التفاصيل",
+    "reportProblem": "الإبلاغ عن مشكلة",
+    "yes": "Да",
+    "no": "Нет"
+  },
+  "gender": {
+    "male": "ذكر",
+    "female": "أنثى",
+    "other": "آخر"
+  },
+  "permissions": {
+    "title": "لم يتم توفير الأذونات",
+    "camera": {
+      "not_granted": "يطلب النظام الإذنً لاستخدام كاميرا هاتفك"
+    },
+    "image_picker": {
+      "not_granted": "يطلب النظام الإذن لاستخدام معرض هاتفك"
+    },
+    "location": {
+      "message": "يطلب النظام الإذن لاستخدام الموقع الجغرافي للمستخدم",
+      "not_granted": "يطلب النظام الإذن لاستخدام معرض هاتفك"
+    }
+  },
+  "notification": {
+    "title": {
+      "success": "بنجاح",
+      "error": "خطأ",
+      "info": "",
+      "system_notification": "إشعار النظام"
+    }
+  },
+  "image_picker": {
+    "choose_gallery": "اختر من المعرض",
+    "camera": "آلة تصوير",
+    "cancel": "الغاء التحميل"
+  },
+  "yup": {
+    "string": "الرجاء إدخال رقم التليفون",
+    "required": "لابد ان يكون مكتمل",
+    "min": "الحد الأدنى {{طول}} حرفًا",
+    "email": "يرجى إدخال عنوان بريد إلكتروني صالح",
+    "phone": "يرجى إدخال رقم هاتف صالح",
+    "regexp_url": "الرجاء إدخال عنوان URL الصحيح"
+  },
+  "bottom_navigation": {
+    "business_cards": "بطاقات العمل",
+    "contacts": "جهات الاتصال",
+    "coupons": "كوبونات",
+    "favorites": "المفضلة",
+    "finance": "المالية",
+    "more": "أكثر",
+    "bills": "Заказы"
+  },
+  "edit_personal_business_card": {
+    "title": "قم بتحرير بطاقتك الشخصية",
+    "common_data": "معلومات عامة",
+    "common_data_message": "قبل استكمال بطاقة عملك قم بإكمال معلومات بروفايلك",
+    "contact_details": "جهات الاتصال",
+    "social_networks": "مواقع التواصل الأجتماعي",
+    "personal_information": "البيانات الشخصيه",
+    "personal_information_message": "استشارة العملاء بشأن (الألوان ؟؟)",
+    "business_card_colors": "حدد لون بطاقة عملك",
+    "button_upload_image": "تنزيل الصورة",
+    "forms": {
+      "activity": {
+        "title": "الوظيفة \n المنصب في الشركة",
+        "placeholder": "التاجر"
+      },
+      "phone": {
+        "title": "رقم التليفون",
+        "placeholder": "2"
+      },
+      "email": {
+        "title": "البريد الإلكتروني",
+        "placeholder": "info@wise.win"
+      },
+      "website": {
+        "title": "الموقع الإلكتروني",
+        "placeholder": "https:\n\nadwise.cards"
+      }
+    },
+    "colors_picker": {
+      "title": "لأختيار اللون اضغط على الدائرة المركزية",
+      "transparency": "الشفافية",
+      "saturation": "تشبع اللون",
+      "button_other": "طريقه أخري",
+      "button_save": "حفظ"
+    },
+    "notifications": {
+      "update": {
+        "title": "تم بنجاح",
+        "message": "تم تغيير بياناتك بنجاح"
+      }
+    }
+  },
+  "language_selection": {
+    "title": "إختيار اللغه"
+  },
+  "about_app": {
+    "title": "معلومات حول التطبيق",
+    "version": "إصدار",
+    "button_change_history": "تاريخ التغييرات"
+  },
+  "business_card_all_contact": {
+    "title": "جميع جهات الاتصال"
+  },
+  "business_card_all_recommendation": {
+    "title": "جميع التوصيات"
+  },
+  "certificates": {
+    "title": "الشهادات الخاصه بي",
+    "description": "الشهادة هي عرض شخصي لشرائك من الشركة. يمكن استخدامه مرة واحدة فقط",
+    "empty": "ليس لديك شهادات نشطة",
+    "what_are_certificates": "ما هي الشهادات ؟",
+    "how_get": "كيف تحصل على",
+    "how_use": "كيفية إستخدام "
+  },
+  "city_selection": {
+    "title": "من فضلك \n حدد مدينتك",
+    "caption": "حتى نتمكن من عرض جميع العروض ذات الصلة",
+    "button_save": "حفظ"
+  },
+  "company_pages": {
+    "order": "طلب",
+    "your_cashback": "استرداد النقود الخاصة بك",
+    "suggestions": "العروض",
+    "organization_coupons": "كوبونات الشركة",
+    "not_filled": "لم يكتمل بعد",
+    "you_have_reached_maximum_coupons": "لقد وصلت إلى الحد الأقصى من القسائم",
+    "text_loading": "جاري التحميل...",
+    "schedule_message": "اليوم من {{from}} إلى {{to}}",
+    "promotions": "كوبونات",
+    "tab_info": "معلومات",
+    "tab_about": "حول الشركه",
+    "tab_contacts": "جهات الاتصال",
+    "staff": "الموظفون",
+    "clients": "العملاء",
+    "buy_coupon_count": "المبلغ في جهاز كمبيوتر شخصى",
+    "create_order": "قم بعمل طلب",
+    "total_count_create_order": "{{totalCount}} positions \n {{totalSum}} ₽",
+    "operations_history": "تاريخ العمليات",
+    "no_found_active_business_card": "لم يتم العثور على بطاقة العمل النشطة ",
+    "coupon_add_from_user": "تم إضافة القسيمه",
+    "create": "إنشاء",
+    "next": "التالي",
+    "share_company": "مشاركة \n الشركه",
+    "share": "مشاركه",
+    "share_mini": "مشاركه صغيره",
+    "done": "تم",
+    "open_map": "فتح الخريطه",
+    "map": {
+      "title": "بناء الطريق"
+    }
+  },
+  "contacts": {
+    "title": "جهات الاتصال",
+    "not_permission": "أنت لم تعطي الأّذن بعد",
+    "button_user_system": "إظهار مستخدمين النظام",
+    "message_permission": "لجعل قسم \"جهات الاتصال\" يعمل ، يرجى منح الإذن باستخدام \"جهات الاتصال\"",
+    "button_open_setting": "فتح الإعدادات",
+    "to_invite": "يدعو",
+    "open_business_card": "فتح بطاقة عمل"
+  },
+  "coupons_disabled": {
+    "title": "قسائم مخفيه "
+  },
+  "feedback": {
+    "title": "تعليق"
+  },
+  "finance": {
+    "titleLevel1": "المستوي الأول ",
+    "titleLevel2": "أشخاص",
+    "mentor": "راعي",
+    "not_mentor": "ليس لديك راع بعد",
+    "titleLevel2_21": "من الثاني إلى الحادي والعشرين",
+    "my_bank_cards": "بطاقاتي المصرفية",
+    "percent": "نسبه مئويه",
+    "all_history": "التاريخ كامل",
+    "row_marketing_message": "شراء «{{couponName}}» {{sum}} ₽، {{level}} lev",
+    "row_purchase_message": "شراء «{{props.couponName}}» {{sum}} ₽ استرداد النقود",
+    "row_withdrawal_message": "المكافآت وسحب النقود",
+    "error_create_withdrawal": "من المستحيل إنشاء طلب لسحب الأموال",
+    "history": "التاريخ",
+    "link_card": "أضف بطاقة مصرفية",
+    "general_information": "معلومات عامة",
+    "personal_level": "المستوى الشخصي",
+    "personal_cashback": "شخصي \n استرداد نقدي",
+    "your_cashback": "الخاص بك \n استرداد النقود"
+  },
+  "history_change_app": {
+    "title": "تاريخ التغييرات"
+  },
+  "information_when_exchanging": {
+    "message_loading": "تحميل دعوتك",
+    "exchange_business_cards": "تبادل بطاقات العمل",
+    "invitation_company": "دعوة للانضمام إلى الشركة",
+    "notifications": {
+      "fix_exchange": {
+        "message_success": "تم إرسال طلب استبدال بطاقات العمل",
+        "message_error": "لقد قمت بالفعل بالاشتراك في هذه الشركة"
+      },
+      "accept_user": {
+        "message": "لقد قمت بتبادل بطاقات العمل الخاصة بك مع هذا المستخدم"
+      },
+      "cancel_user": {}
+    }
+  },
+  "legal_information": {
+    "title": "المعلومات القانونية",
+    "terms_of_use": "شروط الاستخدام",
+    "privacy_policy": "سياسة خاصة",
+    "cookie_policy": "سياسة استخدام ملفات تعريف الارتباط"
+  },
+  "personal_business_card": {
+    "title": "قم بتحرير بطاقتك الشخصية"
+  },
+  "scheduler": {
+    "title": "مخطط",
+    "button_create": "أضف مهمة"
+  },
+  "selected_city": {
+    "title": "حدد مدينة أو منطقة",
+    "placeholder": "المدينة أو المنطقة"
+  },
+  "components": {
+    "coupon": {
+      "organization_disabled": "الشركة غير متصلة",
+      "coupon_disabled": "القسيمه غير متصله",
+      "coupon_out_stock": "القسيمة غير متوفرة"
+    },
+    "form_sending_tips": {
+      "serves_you": "أنت يخدم من قبل",
+      "did_you_like_everything": "هل أحببتها ؟",
+      "done": "تم ",
+      "check_amount": "المبلغ في الإيصال",
+      "enter_amount": "أدخل المبلغ",
+      "minimum_amount": "الحد الأدنى للمبلغ",
+      "please_describe_situation": "يرجى وصف حالتك"
+    },
+    "cutaway": {
+      "partner_company": "شركة شريكة"
+    }
+  },
+  "orders": {
+    "header": {
+      "title": "Мои заказы"
+    },
+    "filterComponent": {
+      "title": "Фильтровать",
+      "orderStatus": "Статус заказа",
+      "date": "Дата",
+      "selectDateRange": "Выбор промежутка дат",
+      "organization": "Организация",
+      "reset": "Сбросить",
+      "choose": "Выбрать",
+      "cancel": "Отмена",
+      "status": {
+        "new": "Неоплачен",
+        "confirmed": "Оплачен",
+        "complete": "Завершён",
+        "processing": "Ожидание оплаты",
+        "shared": "Подарок"
+      }
+    },
+    "dialogUpdatePurchases": {
+      "title": "Мои заказы",
+      "description": "Поступила новая информация по заказам. Обновитесь для просмотра",
+      "update": "Обновить"
+    },
+    "unableAddPurchaseArchive": "Невозможно добавить покупку в архив",
+    "youHaveSuccessfullyArchivedPurchase": "Вы успешно заархивировали покупку",
+    "purchaseSentSuccessfully": "Вы успешно заархивировали покупку"
+  },
+  "order": {
+    "header": {
+      "title": "Заказ"
+    },
+    "headerBody": {
+      "createdAt": "Создан",
+      "paidAt": "Оплачен",
+      "completedAt": "Завершён"
+    },
+    "informationsTable": {
+      "title": "Сумма заказа",
+      "word1Products": "товар",
+      "word2Products": "товара",
+      "word3Products": "товаров",
+      "cashback": "Кэшбэк",
+      "bonusPaid": "Оплачено баллами",
+      "numberOrder": "Номер заказа",
+      "messageFromOrganization": "Сообщение\nот продавца",
+      "yourOrderRating": "Ваша оценка заказа"
+    },
+    "bonusPayment": {
+      "title": "Оплата бонусами",
+      "yourBonusPoints": "Ваши бонусы",
+      "countBonusPoints": "Количество бонусов",
+      "maxBonusPoints": "Макс.",
+      "message": "Оплата до 99% от стоимости покупки. При вводе баллов осуществляется пересчет итоговой суммы"
+    },
+    "formComment": {
+      "title": "Добавить комментарий",
+      "comment": "Комментарий",
+      "desiredDeliveryConditions": "Желаемые условия доставки и т.д."
+    },
+    "rateYourOrder": {
+      "title": "Оцените заказ",
+      "grade": "Оценка",
+      "yourFeedback": "Ваш отзыв",
+      "leaveYourImpressionOrder": "Оставьте ваше впечатление о заказе",
+      "estimate": "Оценить"
+    },
+    "cashierComponent": {
+      "title": "Оцените обслуживание",
+      "servedYou": "Вас обслуживал",
+      "grade": "Оценка",
+      "yourFeedback": "Ваш отзыв",
+      "yourFeedbackPlaceholder": "Введите ваш комментарий",
+      "estimate": "Оценить"
+    },
+    "cashierServiceAssessment": {
+      "title": "Ваша оценка обслуживания",
+      "servedYou": "Вас обслуживал"
+    },
+    "footer": {
+      "cashlessOnline": "Онлайн",
+      "cashlessCash": "Наличные",
+      "cashUponReceipt": "Наличными при получении",
+      "choosePaymentMethod": "Выбрать способ оплаты",
+      "leaveTip": "Оставить чаевые"
+    },
+    "modalCoupon": {
+      "price": "Стоимость",
+      "cashback": "Кэшбэк",
+      "distributionSchemaFirst": "1 уровень реф. сети",
+      "distributionSchemaOther": "2 - 21 уровень реф. сети",
+      "refCode": "Номер акции",
+      "organizationName": "Продавец",
+      "couponSuccessfullyRemovedFavorites": "Купон успешно удален из избранного",
+      "couponSuccessfullyAddedFavorites": "Купон успешно добавлен из избранного"
+    },
+    "paymentMethodSelectedSuccessfully": "Способ оплаты успешно выбран",
+    "errorLeavingReviewOrder": "Возникла ошибка при оставлении отзыва о заказе, попробуйте позднее.",
+    "yourRatingSentSuccessfully": "Возникла ошибка при оставлении отзыва о заказе, попробуйте позднее."
+  },
+  "formSendingTips": {
+    "title": "Оставить чаевые",
+    "cashierCaption": "Ваш обслуживал официант",
+    "amountOrder": "Сумма в чеке",
+    "minimalAmountTips": "Минимальная сумма для оставления чаевых",
+    "paid": "Оплатить"
+  },
+  "myCoupons": {
+    "filter": {
+      "cashback": "Кэшбэк",
+      "price": "Стомость",
+      "minimal": "Минимальная",
+      "maximal": "Максимальная",
+      "searchPlaceholder": "Поиск по вашим купонам",
+      "filter": "Фильтровать",
+      "active": "Активен",
+      "availability": "Наличие",
+      "category": "Категория",
+      "sortByCashback": "Сортировать по кэшбэку",
+      "sortByCost": "Сортировать по стоимости",
+      "reset": "Сбросить"
+    }
+  }
+}

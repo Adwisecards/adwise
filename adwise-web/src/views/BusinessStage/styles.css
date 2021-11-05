@@ -1,0 +1,296 @@
+.container{
+    width: 100%;
+    max-width: 1280px;
+    padding: 20px 40px;
+}
+
+.title{}
+.title span{
+    color: #ed8e00;
+}
+
+.stage{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    margin-bottom: 120px;
+}
+.stage.full{
+    position: relative;
+}
+.stage.full img{
+    position: absolute;
+    right: 0;
+    top: -100px;
+    width: calc(100% - 30%);
+}
+.stage.right{
+    justify-content: flex-end;
+}
+.stage-mini{
+    display: flex;
+    align-items: center;
+    padding: 48px;
+    background: rgba(244, 244, 244, 0.77);
+    backdrop-filter: blur(60px);
+    border-radius: 20px;
+}
+.stage-mini .stage__number{
+    margin-right: 48px;
+}
+.stage__left{}
+.stage__right{}
+.stage__number{
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+    background-color: #8152E4;
+    margin-bottom: 22px;
+
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    text-align: center;
+
+    font-family: 'Atyp Display';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 50px;
+    font-feature-settings: 'ss03' on, 'ss06' on;
+    color: #FFFFFF;
+}
+.stage__title{
+    font-family: 'Atyp Display';
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 35px;
+    font-feature-settings: 'ss03' on, 'ss06' on;
+    color: #25233E;
+}
+.stage__title a{
+    color: #8152E4;
+}
+.stage__image{}
+
+.stage.nth .stage__number{
+    background-color: #ED8E00;
+}
+.stage.nth a{
+    color: #ED8E00;
+}
+
+.business-stage__advantages{
+    margin-top: 360px;
+    margin-bottom: 160px;
+}
+.advantages__list{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-bottom: -12px;
+}
+.business-stage-advantage{
+    width: calc(100% / 3 - 12px);
+    margin-left: 12px;
+    margin-bottom: 12px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    padding: 32px;
+    box-sizing: border-box;
+}
+.business-stage-advantage__icon{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 32px auto 64px;
+}
+.business-stage-advantage__icon img{
+    width: 100%;
+    height: 100%;
+}
+.business-stage-advantage__title{
+    font-family: 'Atyp Display';
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    font-feature-settings: 'ss03' on, 'ss06' on;
+    color: #25233E;
+}
+
+.business-stage__partners{
+    margin-bottom: 160px;
+}
+.business-stage__partners-list{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-bottom: -12px;
+}
+.business-stage-partner{
+    display: flex;
+    flex-direction: column;
+    width: calc(100% / 3 - 12px);
+    margin-left: 12px;
+    margin-bottom: 12px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    padding: 32px;
+    box-sizing: border-box;
+}
+.business-stage-partner__logo{
+    margin: 0 auto;
+    /*width: 160px;*/
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 48px;
+
+}
+.business-stage-partner__logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.business-stage-partner__description{
+    margin-top: auto;
+
+    font-family: 'Atyp Display';
+    font-size: 14px;
+    line-height: 18px;
+    font-feature-settings: 'ss03' on, 'ss06' on;
+    color: #808080;
+}
+.business-stage-partner__link{
+    margin-top: 16px;
+    font-family: 'Atyp Display';
+    font-size: 12px;
+    line-height: 14px;
+    font-feature-settings: 'ss03' on, 'ss06' on;
+    color: #ED8E00;
+}
+.business-stage-partner__link svg{
+    margin-right: 8px;
+}
+
+.business-stage__footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.business-stage__footer a{
+    margin-top: 60px;
+    background: #FFF8EE;
+    border: 1px solid rgba(237, 142, 0, 0.35);
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 14px 28px;
+
+    font-family: 'Atyp Display';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    font-feature-settings: 'ss03' on, 'ss06' on;
+    color: #ED8E00;
+}
+
+
+@media (max-width: 991px) {
+    .stage{
+        flex-direction: column;
+        align-items: baseline;
+        padding: 0;
+        margin-bottom: 80px;
+    }
+    .stage__left{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 16px;
+    }
+    .stage__right{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .stage__right img{
+        max-width: 80% !important;
+    }
+
+    .stage-mini{
+        padding: 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        text-align: center;
+        background-color: transparent;
+    }
+    .stage.full img{
+        position: relative;
+        top: 0;
+        width: auto;
+        max-width: 80%;
+    }
+
+    .business-stage__container{
+        margin-bottom: -80px;
+    }
+    .business-stage__advantages{
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    .business-stage-advantage{
+        width: calc(100% / 2 - 12px);
+    }
+    .business-stage__partners-list > *{
+        width: calc(100% / 2 - 12px);
+    }
+}
+@media (max-width: 640px) {
+    .stage__number{
+        margin-bottom: 8px;
+        width: 40px;
+        height: 40px;
+        font-size: 18px;
+        line-height: 42px;
+    }
+    .stage__title{
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .stage{
+        margin-bottom: 40px;
+    }
+    .stage-mini .stage__number{
+        margin-right: 0;
+    }
+
+    .business-stage-advantage{
+        width: calc(100% / 1 - 12px);
+        padding: 20px;
+        margin: 16px auto 42px;
+    }
+
+    .business-stage__footer svg{
+        width: 100%;
+    }
+    .business-stage__advantages{
+        margin-bottom: 20px;
+    }
+    .business-stage__partners-list > *{
+        width: calc(100% - 12px);
+    }
+}

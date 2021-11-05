@@ -1,0 +1,39 @@
+#app {
+  .ant-menu {
+    &.ant-menu-inline {
+      background: transparent;
+      border-right: unset;
+    }
+    .ant-menu-item-group {
+      margin-bottom: 32px;
+      > .ant-menu-item-group-title {
+        color: #9fa3b7;
+        font-size: 16px;
+        font-weight: 400;
+        padding-left: 24px;
+      }
+    }
+    .ant-menu-item {
+      padding-left: 24px !important;
+      > span > a,
+      > a {
+        color: #000;
+        font-size: 16px;
+        font-weight: 400;
+      }
+    }
+    .ant-menu-item-selected {
+      background-color: #8152e4;
+      border-radius: 8px;
+      padding-left: 14px !important;
+      margin-left: 10px;
+      width: calc(100% - 24px);
+      &:after {
+        content: unset;
+      }
+      & > a {
+        color: #fff;
+      }
+    }
+  }
+}

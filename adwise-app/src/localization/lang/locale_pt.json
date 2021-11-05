@@ -1,0 +1,574 @@
+{
+  "start_screen": {
+    "buttons": {
+      "registration": "Registro",
+      "authorization": "Autorização",
+      "privacy_policy": "Política de Privacidade",
+      "terms_use": "Termos de uso",
+      "cancel": "Cancelamento"
+    },
+    "political": {
+      "start": "Ao continuar, confirmo que li",
+      "privacyPolicy": "a Política de Privacidade,",
+      "termsUse": "Acordo de Usuário\n",
+      "end": "e aceito seus termos"
+    }
+  },
+  "registration": {
+    "header": {
+      "welcome": "Bem-vindo",
+      "phone_number": "Insira seu\nnúmero de telefone",
+      "enter_code_sms": "Insira o código\ndo SMS"
+    },
+    "stage_one": {
+      "please_register": "Por favor, registre-se",
+      "already_registered": "Já registrado?"
+    },
+    "stage_two": {
+      "send_confirmation_code": "Enviaremos um código de confirmação\npara seu telefone"
+    },
+    "stage_three": {
+      "sent_to": "Enviado para\n {{phone}}",
+      "code_valid_for": "O código é válido durante",
+      "code_timed_request_new": "O tempo do código expirou. Solicite um novo",
+      "didnt_receive_code": "Não recebeu o código?"
+    },
+    "forms": {
+      "phone_number": "Seu número de telefone"
+    },
+    "buttons": {
+      "by_phone": "Por telefone",
+      "login_here": "Entre aqui",
+      "proceed": "Continuar",
+      "resend": "Reenviar"
+    },
+    "errors": {
+      "number_entered_incorrectly": "Número inserido incorretamente",
+      "number_registered_system": "Este número já está cadastrado no sistema"
+    },
+    "loadings": {
+      "checks_phone": "Verificação do telefone quanto à presença no banco de dados...",
+      "send_code_phone_number": "Enviamos um código de confirmação para o seu número de telefone"
+    },
+    "modal_filing": {
+      "title": "Com sucesso",
+      "message": "O registro foi concluído com sucesso. \nVocê gostaria de completar seu perfil agora?",
+      "button_go": "Conclua agora",
+      "button_skip": "pular"
+    }
+  },
+  "authorization": {
+    "header": {
+      "entry": "Entrada"
+    },
+    "forms": {
+      "phone": "Digite seu número de telefone",
+      "password": "Digite a senha"
+    },
+    "buttons": {
+      "forgot_password": "Esqueceu sua senha?",
+      "entry": "Entrar"
+    },
+    "errors": {
+      "wrong_login_password": "login ou senha inválidos"
+    }
+  },
+  "reset_password": {
+    "home": {
+      "title": "Redefinir\na senha",
+      "button_reset": "Repor por telefone"
+    },
+    "phone": {
+      "message": "Restaurar por número de telefone",
+      "button_request": "Solicitar",
+      "dialog_message": "A redefinição da senha está em andamento"
+    },
+    "verification": {
+      "message": "Insira o código\ndo SMS",
+      "message_repeat_code": "Não recebeu o código?",
+      "button_repeat_code": "Reenviar",
+      "button_send_code": "redefinir"
+    }
+  },
+  "dashboard": {
+    "businessCards": {
+      "personal": "Cartão de visita pessoal",
+      "working": "Cartão de visitas",
+      "installed_active_business_card": "Colocando cartão de visita ativo, por favor, aguarde até o final da operação."
+    },
+    "recommendation": {
+      "title": "Minhas recomendações",
+      "empty": "Por enquanto você não tem nenhuma recomendação"
+    },
+    "connections": {
+      "title": "Meus contatos",
+      "empty": "Por enquanto vc não tem contatos"
+    },
+    "qr_code": {
+      "title": "Coloque o código \nQR no quadro "
+    },
+    "notification": {
+      "subscription": {
+        "message": "A empresa foi inscrita"
+      },
+      "contact_request": {
+        "title": "Pedido de troca de cartões de visita",
+        "message": "Você trocou cartões de visita com sucesso com um usuário."
+      },
+      "purchase_added": {
+        "title": "Compra criada",
+        "message": "Você criou um pedido com sucesso."
+      },
+      "purchase_confirmed": {
+        "title": "Compra paga",
+        "message": "Você efetuou o pagamento do seu pedido com sucesso"
+      }
+    },
+    "errors": {
+      "organization_empty": {
+        "title": "Notificação do sistema",
+        "message": "Esta organização não foi encontrada no sistema"
+      },
+      "coupon_empty": {
+        "title": "Notificação do sistema",
+        "message": "Este cupom não foi encontrado no sistema"
+      }
+    }
+  },
+  "my_coupons": {
+    "title": "Meus cupons",
+    "sections": {
+      "fixed": {
+        "title": "Cupons fixados"
+      }
+    }
+  },
+  "coupon": {
+    "terms_action": "Terms of action",
+    "cashback_information": "1 nível  {{cashbackFirstLevel}}% \n 2–21 nível {{cashbackOtherLevel}}%"
+  },
+  "payments": {
+    "title": "Meus pedidos",
+    "title_archive": "Pedidos arquivados",
+    "total_count_purchase": "Mercadorias e serviços  {{coupons}} pça.",
+    "success_send_purchase": "Você enviou uma compra com sucesso \"{{couponName}}\"",
+    "success_cash_payment": "Obrigada. Após a confirmação do pagamento pelo caixa, o pedido será finalizado.",
+    "tabs": {
+      "current": "Em andamento",
+      "history": "Concluídos"
+    },
+    "notifications": {
+      "reviewed_successfully": "Sua avaliação foi enviada com sucesso",
+      "reviewed_error": "Ocorreu um problema ao enviar seu comentário.",
+      "tips_error": "Ocorreu um problema ao enviar gorjeta."
+    }
+  },
+  "purchase": {
+    "order": "Pedido",
+    "text_loading": "Carregando pedido...",
+    "purchase_data": "Dados de compra",
+    "purchase_payment": "Pagamento de compra",
+    "order_not_found": "Pedido não encontrado",
+    "created_by": "Criado",
+    "paid_by": "Pago",
+    "completed_by": "Concluído",
+    "purchase_amount": "Valor",
+    "cashback_amount": "Valor de cashback",
+    "order_number": "Número do pedido",
+    "seller": "Vendedor",
+    "paid_points": "Pago com pontos",
+    "cashier_title": "Você foi servido por",
+    "send_error_purchase": "Reportar um problema",
+    "success_comment_send": "Sua avaliação foi enviada com sucesso",
+    "bonuses": {
+      "my_bonus": "Seus bônus: {{count}}",
+      "placeholder": "Número de bônus",
+      "button_max": "Max. {{count}}",
+      "hint": "Pagamento de até 99% do preço de compra. Quando os pontos são inseridos, o valor total é recalculado."
+    },
+    "comment": {
+      "title": "Comentário sobre o pedido",
+      "placeholder": "Tempo conveniente, entrega, etc."
+    },
+    "controls": {
+      "payment_amount": "Pagar {{sum}} $",
+      "button_online": "Online",
+      "button_cash": "Pagar no caixa",
+      "error_cash": "O pagamento em \ndinheiro não está disponível no momento"
+    },
+    "evaluation": {
+      "title": "Avaliação",
+      "your_feedback": "Seu feedback",
+      "your_feedback_placeholder": "Deixe seu feedback sobre os produtos da empresa",
+      "button_send": ""
+    },
+    "notification": {},
+    "buttons": {
+      "to_archive": "Para arquivo"
+    }
+  },
+  "financial_section": {
+    "header_switch": {
+      "financial_section": "Departamento \nfinanceiro",
+      "referral_program": "Programa de \nreferência"
+    },
+    "my_finances": {
+      "title": "Minhas finanças",
+      "time_updated_at": "Atualizado:",
+      "your_balance": "Seu balanço",
+      "to_enrollment": "Para creditar",
+      "button_withdrawal_funds": "Pedido de retirada",
+      "checks": "Notas fiscais",
+      "purchase_amount": "Valor das compras",
+      "rewards": "Recompensas",
+      "used_points_sum": "Pago com pontos",
+      "withdrawal_sum": "Pago"
+    },
+    "history": {
+      "title": "Histórico de operações",
+      "row_marketing": "Compra, «{{couponName}}» {{price}}, {{level}} nível",
+      "row_purchase": "Compra, «{{couponName}}» {{price}}, cashback",
+      "row_withdrawal": "Retirada de pontos e cashback",
+      "row_use_points": "Uso de pontos.\nCompra, «{{couponName}}»\n«{{organizationName}}»"
+    }
+  },
+  "referral_program": {
+    "founder": {
+      "title": "Minhas recomendações",
+      "not_data": "Não há dados",
+      "founder_card": {
+        "total_percentage": "Porcentagem\ntotal"
+      }
+    }
+  },
+  "account": {
+    "user": {
+      "copy_code": "Código copiado",
+      "your_code": "Seu código"
+    },
+    "menu": {
+      "feedback": "Pergunta e Resposta ",
+      "contacts": "Contatos",
+      "about_app": "Sobre o aplicativo",
+      "legal_information_home": "Informações legais",
+      "settings": "Configurações",
+      "my_payments_archive": "Pedidos de arquivo",
+      "coupons_disabled": "Cupons ocultos",
+      "exit": "Saída"
+    },
+    "invitation": {
+      "title": "Convide uma empresa para AdWise",
+      "description": "Receba 30 $ para cada empresa convidada com sucesso para a AdWise"
+    },
+    "application": {
+      "description": "Quer que a sua empresa esteja neste aplicativo?",
+      "button": "Enviar inscrição"
+    }
+  },
+  "profile": {
+    "header": "Perfil",
+    "header_edit": "Edição de perfil",
+    "name": "Nome",
+    "surname": "Sobrenome",
+    "gender": "Sexo",
+    "date_birth": "Data de nascimento",
+    "phone": "Telefone",
+    "provide_email": "Fornecer e-mail",
+    "provide_phone_number": "Forneça um número de telefone",
+    "edit": "Editar",
+    "change": "Alterar",
+    "send_edit": "Feito",
+    "upload_image": "Carregar imagem",
+    "help_edit_message": "Por favor, forneça dedos reais. \nEles podem ser úteis para restaurar o acesso",
+    "updating_contacts": "Atualização de contatos",
+    "data_changed_successfully": "Dados alterados com sucesso. Seus contatos estão sendo atualizados"
+  },
+  "purchaseStatus": {
+    "paid": "Pago",
+    "canceled": "Devolução (Retorno)",
+    "not_paid": "Não pago",
+    "during": "Em andamento",
+    "completed": "Concluído"
+  },
+  "common": {
+    "search": "Busca",
+    "scheduler": "Agendador",
+    "scan": "Escanear",
+    "send": "Enviar",
+    "share": "Compartilhar",
+    "cashback": "Cashback",
+    "pay": "Pagar",
+    "hide": "esconder",
+    "unsubscribe": "Cancelar subscrição",
+    "subscribe": "Se inscrever",
+    "receive": "Receber",
+    "clear": "Remover",
+    "leave_tip": "Deixar uma gorjeta",
+    "loading_message": "Carregando...",
+    "contact_support": "Contatar o suporte técnico",
+    "current_city_empty": "Sua cidade",
+    "system_notification": "Notificação do sistema",
+    "organization_disabled": "Organização desativada",
+    "coupon_disabled": "Cupom desativado",
+    "not_filled": "Não completo",
+    "not_data": "Não há dados",
+    "not_specified": "Não especificado",
+    "go_back": "Volte",
+    "user_shared_coupon": "O usuário {{firstName} {{lastName}} recomenda um cupom {{couponName}} \n {{url}}",
+    "user_shared_organization": "O usuário {{firstName} {{lastName}} está convidando você para a organização  {{organizationName}} \n {{url}}",
+    "user_shared_app": "O usuário {{firstName} {{lastName}} está convidando você para o AdWise App \n {{url}}",
+    "create_subscription": "Criar uma assinatura",
+    "apply": "Aplicar",
+    "return": "Retornar",
+    "level": "nível",
+    "exchange": "trocar",
+    "refuse": "Recusar",
+    "count_mini": "pç.",
+    "organizations": "Organização",
+    "please_select": "Selecione",
+    "loading_progress": "Carregando...",
+    "user_shared_cards": "O usuário {{firstName} {{lastName}} wants to exchange business cards with you \n {{url}}",
+    "unpin": "Desanexar",
+    "anchor": "Fixar",
+    "collapse": "Minimizar",
+    "expand_description": "Expandir descrição"
+  },
+  "gender": {
+    "male": "Masculino",
+    "female": "Feminino",
+    "other": "Outro"
+  },
+  "permissions": {
+    "title": "As permissões não são fornecidas",
+    "camera": {
+      "not_granted": "Requer permissão para uso da câmera."
+    },
+    "image_picker": {
+      "not_granted": "Requer permissão para uso da galeria."
+    },
+    "location": {
+      "message": "Requer permissão para usar a geolocalização do usuário",
+      "not_granted": "Requer permissão para uso da galeria."
+    }
+  },
+  "notification": {
+    "title": {
+      "success": "Com sucesso",
+      "error": "Erro",
+      "info": "",
+      "system_notification": "Notificação do sistema"
+    }
+  },
+  "image_picker": {
+    "choose_gallery": "Escolha da galeria",
+    "camera": "Câmera",
+    "cancel": "Cancelamento"
+  },
+  "yup": {
+    "string": "Nenhuma linha inserida",
+    "required": "Preenchimento obrigatório",
+    "min": "No mínimo {{length}} símbolo",
+    "email": "Endereço de email invalido",
+    "phone": "Número de telefone inserido incorretamente",
+    "regexp_url": "URL do seu site inserido incorretamente"
+  },
+  "bottom_navigation": {
+    "business_cards": "Cartãos de visita",
+    "contacts": "Contatos",
+    "coupons": "Cupons",
+    "bills": "Заказы",
+    "favorites": "Favoritos",
+    "finance": "Finanças",
+    "more": "Mais"
+  },
+  "edit_personal_business_card": {
+    "title": "Edição do cartão de visita pessoal",
+    "common_data": "Dados gerais",
+    "common_data_message": "Antes de preencher o cartão de visita, preencha o perfil de usuário.",
+    "contact_details": "Contatos",
+    "social_networks": "Sites de redes sociais",
+    "personal_information": "Informações pessoais",
+    "personal_information_message": "Consulta ao cliente sobre cores",
+    "business_card_colors": "Selecione uma cor para o seu cartão de visita",
+    "button_upload_image": "Carregar imagem",
+    "forms": {
+      "activity": {
+        "title": "Profissão\n posição na empresa",
+        "placeholder": "Vendedor"
+      },
+      "phone": {
+        "title": "Número de telefone",
+        "placeholder": "+7 123 456-78-90"
+      },
+      "email": {
+        "title": "E-mail",
+        "placeholder": "info@wise.win"
+      },
+      "website": {
+        "title": "Website",
+        "placeholder": "https:\n\nadwise.cards"
+      }
+    },
+    "colors_picker": {
+      "title": "Para escolher a cor\nclique no círculo central",
+      "transparency": "Transparência",
+      "saturation": "saturação de cor",
+      "button_other": "Outra maneira",
+      "button_save": "Salvar"
+    },
+    "notifications": {
+      "update": {
+        "title": "Com sucesso",
+        "message": "Seus dados foram alterados com sucesso"
+      }
+    }
+  },
+  "language_selection": {
+    "title": "Selecione o idioma"
+  },
+  "about_app": {
+    "title": "Sobre o aplicativo",
+    "version": "Versão",
+    "button_change_history": "Histórico de mudanças"
+  },
+  "business_card_all_contact": {
+    "title": "Todas as conexões"
+  },
+  "business_card_all_recommendation": {
+    "title": "Todas as recomendações"
+  },
+  "certificates": {
+    "title": "Meus certificados",
+    "description": "Um certificado é uma oferta pessoal de compra em uma empresa. Pode ser usado uma vez",
+    "empty": "Você ainda não possuir \ncertificados ativos",
+    "what_are_certificates": "O que são certificados?",
+    "how_get": "Como receber",
+    "how_use": "Como usar"
+  },
+  "city_selection": {
+    "title": "Por favor, \nselecione sua cidade",
+    "caption": "Para que possamos mostrar a você\ntodas as ofertas relevantes",
+    "button_save": "Salvar"
+  },
+  "company_pages": {
+    "order": "Pedido",
+    "your_cashback": "Seu reembolso",
+    "suggestions": "Ofertas",
+    "organization_coupons": "Cupons de organização",
+    "not_filled": "Não completo",
+    "you_have_reached_maximum_coupons": "Você atingiu o número máximo de cupons",
+    "text_loading": "Carregando...",
+    "schedule_message": "Hoje de {{from}} a {{to}}",
+    "promotions": "Cupons",
+    "tab_info": "informação",
+    "tab_about": "Sobre a organização",
+    "tab_contacts": "Contatos",
+    "staff": "funcionários",
+    "clients": "clientes",
+    "buy_coupon_count": "Quantidade em pedaços",
+    "create_order": "Fazer um pedido",
+    "total_count_create_order": "{{totalCount}} positions \n {{totalSum}} ₽",
+    "operations_history": "História das operações",
+    "no_found_active_business_card": "Nenhum cartão de visita ativo encontrado",
+    "coupon_add_from_user": "Cupom adicionado",
+    "create": "Criar",
+    "next": "Next",
+    "share_company": "Compartilhar\numa organização",
+    "share_mini": "Comp.",
+    "open_map": "Aberto ao mapa",
+    "map": {
+      "title": "Construindo a rota"
+    },
+    "share": "Compartilhar",
+    "done": "Complete"
+  },
+  "contacts": {
+    "title": "Contatos",
+    "not_permission": "Você não deu permissão",
+    "button_user_system": "Mostrar usuários do sistema",
+    "message_permission": "Para que a seção \"Contatos\" funcione, é preciso conceder permissão para usar \"Contatos\".",
+    "button_open_setting": "Abrir configurações",
+    "to_invite": "Convidar",
+    "open_business_card": "Abra cartão de visita"
+  },
+  "coupons_disabled": {
+    "title": "Cupons ocultos"
+  },
+  "feedback": {
+    "title": "Feddback"
+  },
+  "finance": {
+    "titleLevel1": "1 nível",
+    "titleLevel2": "pessoas",
+    "mentor": "Mentor",
+    "not_mentor": "Você ainda não tem mentor",
+    "titleLevel2_21": "2—21 nível de pessoa ",
+    "my_bank_cards": "Meus cartões bancários",
+    "percent": "Porcentagem",
+    "all_history": "Todo o histórico",
+    "row_marketing_message": "Compra, «{{couponName}}» {{sum}}₽, {{level}} nível",
+    "row_purchase_message": "Compra, «{{props.couponName}}» {{sum}}₽, cashback",
+    "row_withdrawal_message": "Retirada de pontos e cashback",
+    "error_create_withdrawal": "É impossível criar um pedido de levantamento de dinheiro",
+    "history": "História",
+    "link_card": "Adicionar um cartão bancário",
+    "general_information": "Informações gerais",
+    "personal_level": "Nível\npessoal",
+    "personal_cashback": "Reembolso\npessoal",
+    "your_cashback": "Seu\nreembolso"
+  },
+  "history_change_app": {
+    "title": "Histórico de mudanças"
+  },
+  "information_when_exchanging": {
+    "message_loading": "Carregando seu convite",
+    "exchange_business_cards": "Troca de cartões de visita",
+    "invitation_company": "Convite para ingressar na empresa",
+    "notifications": {
+      "fix_exchange": {
+        "message_success": "Pedido de troca de cartões de visita enviado",
+        "message_error": "Você já está inscrito na organização"
+      },
+      "accept_user": {
+        "message": "Você trocou cartões de visita com um usuário"
+      },
+      "cancel_user": {}
+    }
+  },
+  "legal_information": {
+    "title": "Informações legais",
+    "terms_of_use": "Termos de uso",
+    "privacy_policy": "Política de Privacidade",
+    "cookie_policy": "Política de Cookies"
+  },
+  "personal_business_card": {
+    "title": "Edição do cartão\nde visita pessoal"
+  },
+  "scheduler": {
+    "title": "Agendador",
+    "button_create": "Adicionar tarefa"
+  },
+  "selected_city": {
+    "title": "Selecionar uma cidade ou região",
+    "placeholder": "Cidade ou região"
+  },
+  "components": {
+    "coupon": {
+      "organization_disabled": "Organização desativada",
+      "coupon_disabled": "Cupom desativado",
+      "coupon_out_stock": "O cupom está esgotado"
+    },
+    "form_sending_tips": {
+      "serves_you": "Você é servido por",
+      "did_you_like_everything": "Você gostou?",
+      "done": "Completo",
+      "check_amount": "Quantia em cheque",
+      "enter_amount": "Insira o valor",
+      "minimum_amount": "Quantidade mínima",
+      "please_describe_situation": "Descreva a sua situação"
+    },
+    "cutaway": {
+      "partner_company": "Empresa parceira"
+    }
+  }
+}

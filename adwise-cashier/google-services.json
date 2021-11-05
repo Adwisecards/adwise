@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "179497017859",
+    "project_id": "adwise-cashier",
+    "storage_bucket": "adwise-cashier.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:179497017859:android:4a2e92aae36344b483e436",
+        "android_client_info": {
+          "package_name": "cards.adwise.business"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "179497017859-0cl5mjjdpngcvc0ul2v06up7et65505j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfqeVs9Aq6lLIeQsZ3btMZrAueaMbI0Mw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "179497017859-0cl5mjjdpngcvc0ul2v06up7et65505j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

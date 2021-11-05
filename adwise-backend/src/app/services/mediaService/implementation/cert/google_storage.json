@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "stmclub",
+  "private_key_id": "cf6b1fede511ee2cf17a759588436d7a5bbf540c",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCYCmnF6hfd4Gji\nug32QBAkjveS7W/yaCXg7BBJ88hbSMrw6VXsKnYpqfxin8/tGiKgcbssb3CL/Sxr\n/FD+0zdD2cnyU3f74WJsyR7aHu6WLZKymdKT3RzOaAc4DX2ycdUSmmUtr7HXJSjs\nfc6O5JLrAHWrNSt4N+dzZdUa6M7krEb4tBXegRsw3JPB77pUnSfjDTrAMoXyIcIL\nC2rs8YaVHnylXGB91hAk1RHkb/3rTXkYffLLPJ/rofiY+quT7RYR8i8BKsEuxQH7\nvEWcGHG+nbJ/3ORmpPzFRbVQStLAEAT17ixS4v/qYwOWyb9flJc8SvWfZd3t9ORN\nhjfasPQbAgMBAAECggEANdHh1WRjZHBO0Itp69SLolVVgBY6vYVueys1LOh18RJY\nfGUsvDffsinxJHxL3zOUNFVuG3GrVnKdafBcP4hHFOagXP59B5WmALpFCJNQg6rI\nNh7Lcvofe1VJ0Oa9qxAui7JJxJ1gB7eov+Zc2ypAc52rCZr9s0We0bOndyoYKsvh\nHxUWrcOnMg0XRedxOxDvMbShJlxSLABm04i0FU9XwlBoC1z6rUjuVlLdG/LNw06j\niPhEmCSok83yOBH1GIY1502d12lMnlayTWhq/j9Ily8FlvEkaRpECBVJNFyBMsa2\ne5y+OsouuR9rTdFGAJSZRuSMKxI2nqoTGfpUUpwFeQKBgQDT7sXrXx2ayL8ToMsg\nyOvdjHgIcF4SphnG7Naaeue2vXzCztYymP5tv4AYaf5YWld3lhDvj6LZqswrYFS9\nyvbD8TiOpYOLNLByfOs61Dr3b31jfqI4JP1qBPui4qUa+vSS0DymqKNsu08r5pFR\nfeUf5o4YGonRCRomZ3GSMo7pZwKBgQC3p5LMl3xA4beiGy0bM2k6rv8wW9d9eoxY\n3yhhzw7ubIkgA2GIH7UFmOg4YS+VaOv0bSQ97FhGJLCzrNglqSUgWsCQ17IRpIt8\n/RTnFhmWRDpahpQeTNCC7ya8ILb+Dz204hGYHuIgEFf05TFhP4f2a0p8vyGHpe++\ncFreyRGLLQKBgBS/e4DffvZ4ULyLMVe0U+MMrXOmDI+m0z82UIwvHCA3zM8FkNLD\nR6VW6iN5vPzJW2bJuj65wSeuIO7eL22lQSNNqkvMyGQIdH3A3QaVYHB46b2j2B3H\nAUgv1LLNnXxWtTrqSAXI3Lb4X3fcyr0/pf7Jg3+4mWVtjrHTzrqRWIxhAoGBALVT\nbCs3/eQJd8dD0bsjfWgFU8upQg+PqXYtjq9TQkjBPHoxHGDL/WyzVcQkoFiCKUVB\nZSEGcvl+TEB6DUbRw+g38hyP+i5VKauULMkkFss4Pe0XJrLr4IsGGFZybnpVDfXD\npt9szpId0NnoWGLN2S3BLOARzcciXJzITc/c8cdZAoGBALeM9KmGo+nG/tUtSFRu\n3G5i8eebsmyNDgmp4mk44v+j71VYJhuWCgvY0tTGIPAlNtDUHmrntzkoXuEX8Ni8\n4LILLMuZtWhPy9RtbdMw2bRFYKfIqp2T9pe2ldw/UZhQf/8/nF4SigRbEu1OZmzO\ngwIawjbNj6ryw7utCO7iE1Wk\n-----END PRIVATE KEY-----\n",
+  "client_email": "adwise-storage@stmclub.iam.gserviceaccount.com",
+  "client_id": "100098986518636326960",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/adwise-storage%40stmclub.iam.gserviceaccount.com"
+}

@@ -1,0 +1,17 @@
+.cke_editable::-webkit-scrollbar {
+     width: 10px;
+ }
+.cke_editable::-webkit-scrollbar-track {
+     background: #FFFFFF;
+     border: 0.5px solid rgba(168, 171, 184, 0.6);
+     box-sizing: border-box;
+     border-radius: 8px;
+
+     padding: 2px;
+ }
+.cke_editable::-webkit-scrollbar-thumb {
+     background-color: #e2d1fe;
+     border-radius: 12px;
+
+     width: 6px;
+ }

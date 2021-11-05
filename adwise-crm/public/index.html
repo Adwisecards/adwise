@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <meta id="myViewport" name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="AdWise CRM" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+
+  <title>AdWise CRM</title>
+</head>
+
+<body class="notranslate">
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+  <script>
+    window.onload = function () {
+      let mvp = document.getElementById('myViewport');
+
+      if (window.innerWidth < 1400){
+        mvp.setAttribute('content', 'width=1400, initial-scale=1, shrink-to-fit=no');
+      }
+    }
+  </script>
+</body>
+
+</html>

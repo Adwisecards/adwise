@@ -1,0 +1,43 @@
+.container-registration{
+  display: flex;
+
+  position: relative;
+
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.container-registration__content-logo{
+  display: flex;
+  justify-content: flex-end;
+
+  position: absolute;
+
+  right: calc(100% + 24px);
+}
+
+.container-registration__logo{
+  padding: 18px;
+  padding-left: 130px;
+
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0) 100%);
+  border-radius: 12px;
+}
+
+.container-registration__content{
+  max-width: 740px;
+  width: 100%;
+
+  padding: 48px 52px;
+
+  background: linear-gradient(180deg, #FFFFFF 7.52%, rgba(255, 255, 255, 0) 100%);
+  border-radius: 12px;
+
+  overflow: hidden;
+}
+
+.container-registration__container-people{}
+
+.container-registration__people{
+  margin-left: -24px;
+}

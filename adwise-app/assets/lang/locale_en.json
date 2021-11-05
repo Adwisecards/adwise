@@ -1,0 +1,86 @@
+{
+  "dashboard": {
+    "my_cards_title": {
+      "personal": "Personal",
+      "working": "Working"
+    },
+    "my_recommendations_title": "I recommend"
+  },
+  "start_screen": {
+    "button_political": {
+      "left": "By continuing, I confirm that I am familiar with",
+      "link_left": "Privacy Policy",
+      "link_right": "User agreement",
+      "right": "and accept their terms"
+    },
+    "buttons": {
+      "registration": "Register now",
+      "authorization": "To come in",
+      "continue_through": "Continue through"
+    }
+  },
+  "registration_home_screen": {
+    "header_title": "Welcome",
+    "button_title_phone": "Your phone number",
+    "button_title_email": "Your e-mail",
+    "text": {
+      "or": "or",
+      "text_social_line_1": "or register",
+      "text_social_line_2": "via social networks"
+    }
+  },
+  "registration_phone_screen": {
+    "header_title": "Welcome",
+    "form_title_phone": "Your phone number",
+    "form_placeholder_phone": "room",
+
+    "form_title_code": "Enter the code received from SMS",
+    "form_placeholder_code": "The code"
+  },
+  "registration_from_screen": {
+    "header_title": "Регистрация",
+    "form": {
+      "first_name": "Имя",
+      "last_name": "Фамилия",
+      "dob": "Дата рождения",
+      "password": "Пароль",
+      "repeat_password": "Повторите пароль"
+    }
+  },
+  "login": {
+    "header_title": "Вход",
+    "form": {
+      "phone": {
+        "title": "Введите номер телефона или e-mail",
+        "placeholder": "Номер или e-mail"
+      },
+      "password": {
+        "title": "Введите пароль",
+        "placeholder": "Пароль"
+      }
+    },
+    "social_text": "или войдите через соц. сети"
+  },
+  "header": {
+    "placeholder_search": "Поиск"
+  },
+  "controls": {
+    "scheduler": "Планировщик",
+    "scan": "Сканировать",
+    "share": "Поделиться"
+  },
+  "buttons": {
+    "more_details": "Подробнее",
+    "share": "Поделиться",
+    "proceed": "Продолжить",
+    "register_now": "Зарегистрироваться",
+    "forgot": "Забыли пароль?"
+  },
+  "bottom_navigation": {
+    "business_cards": "Визитки",
+    "contacts": "Контакты",
+    "coupons": "Купоны",
+    "favorites": "Избранное",
+    "bills": "Заказы"
+  }
+}

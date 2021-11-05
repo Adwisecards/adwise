@@ -1,0 +1,13 @@
+node_modules
+.env
+# exclude everything
+public/*
+
+# exception to the rule
+!public/.gitkeep
+
+.idea
+
+dist/
+
+.logs

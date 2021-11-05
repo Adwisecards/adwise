@@ -1,0 +1,50 @@
+FROM node:12-alpine as builder
+
+ARG NODE_ENV=test
+ENV NODE_ENV=test
+
+RUN apk --no-cache add python make g++ git
+
+COPY package*.json ./
+RUN npm install
+
+# Second stage
+FROM node:12-alpine
+
+ENV UNO_URL https://raw.githubusercontent.com/dagwieers/unoconv/master/unoconv
+
+ENV CHROME_BIN="/usr/bin/chromium-browser" \
+    PUPPETEER_SKIP_CHROMIUM_DOWNLOAD="true"
+RUN set -x \
+    && apk add --no-cache \
+    bash \
+    udev \
+    mc \
+    ttf-freefont \
+    ttf-liberation \
+    ttf-droid-nonlatin \
+    ttf-droid \
+    ttf-dejavu \
+    curl \
+    util-linux \
+    libreoffice-common \
+    libreoffice-writer \
+    chromium \
+    && curl -Ls $UNO_URL -o /usr/local/bin/unoconv \
+    && ln -s /usr/bin/python3 /usr/bin/python \
+    && chmod +x /usr/local/bin/unoconv
+
+WORKDIR /usr/src/app
+COPY --from=builder node_modules node_modules
+COPY . .
+
+RUN npm i -g ts-node
+RUN npm i -g rimraf
+RUN npm i -g copyfiles
+RUN npm i morgan-body
+
+
+RUN npm run test
+
+EXPOSE 5000
+CMD [ "npm", "run", "start:dev" ]

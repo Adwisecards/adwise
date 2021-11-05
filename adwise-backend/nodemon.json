@@ -1,0 +1,10 @@
+{
+    "watch": [
+        "src",
+        ".env",
+        "types"
+    ],
+    "ext": ".ts, .js",
+    "quiet": true,
+    "exec": "ts-node ./src/index.ts --expose-gc --max_old_space_size=32182"
+}

@@ -1,0 +1,45 @@
+.container{
+  max-width: 1280px;
+  width: 100%;
+
+  padding: 0 40px;
+  box-sizing: border-box;
+}
+.container-relative{
+
+}
+
+.main{
+  &::-webkit-scrollbar {
+    width: 10px;
+  }
+  &::-webkit-scrollbar-track {
+    background: #FFFFFF;
+    border: 0.5px solid rgba(168, 171, 184, 0.6);
+    box-sizing: border-box;
+    border-radius: 8px;
+
+    padding: 2px;
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: #e2d1fe;
+    border-radius: 12px;
+
+    width: 6px;
+  }
+}
+
+.no-wrap{
+  white-space: nowrap;
+}
+
+.form-requisites{
+  .Mui-disabled{
+    background-color: #d6d8e0;
+    cursor: not-allowed!important;
+  };
+  .Mui-disabled input{
+    background-color: transparent;
+    color: rgba(0, 0, 0, 0.8);
+  };
+}

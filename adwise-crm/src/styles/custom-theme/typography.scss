@@ -1,0 +1,80 @@
+h1, .h1 {
+  margin: 0;
+  margin-bottom: 16px;
+
+  font-size: 40px;
+  line-height: 48px;
+
+  color: #25233E
+}
+h2, .h2 {}
+h3, .h3 {}
+h5, .h4 {}
+
+
+textarea::-webkit-scrollbar {
+  width: 10px;
+}
+textarea::-webkit-scrollbar-track {
+  background: #FFFFFF;
+  border: 0.5px solid rgba(168, 171, 184, 0.6);
+  box-sizing: border-box;
+  border-radius: 8px;
+
+  padding: 2px;
+}
+textarea::-webkit-scrollbar-thumb {
+  background-color: #e2d1fe;
+  border-radius: 12px;
+
+  width: 6px;
+}
+
+.MuiAutocomplete-listbox::-webkit-scrollbar {
+  width: 6px;
+}
+.MuiAutocomplete-listbox::-webkit-scrollbar-track {
+  background: #FFFFFF;
+  border-radius: 8px;
+}
+.MuiAutocomplete-listbox::-webkit-scrollbar-thumb {
+  background-color: #e2d1fe;
+  border-radius: 12px;
+
+  width: 6px;
+}
+.MuiAutocomplete-option{
+  border-radius: 6px;
+}
+.MuiAutocomplete-option:active{
+  background-color: #c0b0e5!important;
+}
+.MuiAutocomplete-option[data-focus="true"]{
+  background-color: #f3ecfe!important;
+}
+
+.MuiSwitch-colorSecondary.Mui-checked{
+  color: white!important;
+}
+.MuiSwitch-colorSecondary.Mui-checked + .MuiSwitch-track{
+  background-color: #8152E4!important;
+  opacity: 1!important;
+}
+
+
+.render-pdf{
+  > * {
+    position: relative!important;
+  }
+  canvas, .react-pdf__Page__textContent{
+    width: 100% !important;
+    position: relative!important;
+    span{
+      font-family: 'Atyp Display'!important;
+      font-size: 16px!important;
+      line-height: 19px!important;
+      color: #25233E!important;
+      position: relative!important;
+    }
+  }
+}

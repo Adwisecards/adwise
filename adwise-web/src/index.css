@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* AtypText-Bold.woff2' */
+
+ @font-face {
+  font-family: 'Atyp Text';
+  src: url('./main/assets/fonts/atyptext-bold.woff2') format('woff2'),
+      url('./main/assets/fonts/atyptext-bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Atyp Text';
+  src: url('./main/assets/fonts/atyptext-regular.woff2') format('woff2'),
+      url('./main/assets/fonts/atyptext-regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Atyp Text';
+  src: url('./main/assets/fonts/atyptext-semibold.woff2') format('woff2'),
+      url('./main/assets/fonts/atyptext-semibold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'Atyp Text';
+  src: url('./main/assets/fonts/atyptext-light.woff2') format('woff2'),
+      url('./main/assets/fonts/atyptext-light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Atyp Text';
+  src: url('./main/assets/fonts/atyptext-thin.woff2') format('woff2'),
+      url('./main/assets/fonts/atyptext-thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Atyp Text';
+  src: url('./main/assets/fonts/atyptext-medium.woff2') format('woff2'),
+      url('./main/assets/fonts/atyptext-medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Atyp Display';
+  src: url('./main/assets/fonts/AtypDisplay-Thin.woff2') format('woff2'), url('./main/assets/fonts/AtypDisplay-Thin.woff2') format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Atyp Display';
+  src: url('./main/assets/fonts/AtypDisplay-Light.woff2') format('woff2'), url('./main/assets/fonts/AtypDisplay-Light.woff2') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Atyp Display';
+  src: url('./main/assets/fonts/AtypDisplay-Regular.woff2') format('woff2'), url('./main/assets/fonts/AtypDisplay-Regular.woff2') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Atyp Display';
+  src: url('./main/assets/fonts/AtypDisplay-Medium.woff2') format('woff2'),
+  url('./main/assets/fonts/AtypDisplay-Medium.woff2') format('woff');
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'Atyp Display';
+  src: url('./main/assets/fonts/AtypDisplay-Thin.woff2') format('woff2'),
+      url('./main/assets/fonts/AtypDisplay-Thin.woff2') format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Atyp Display';
+  src: url('./main/assets/fonts/AtypDisplay-Light.woff2') format('woff2'),
+      url('./main/assets/fonts/AtypDisplay-Light.woff2') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Atyp Display';
+  src: url('./main/assets/fonts/AtypDisplay-Regular.woff2') format('woff2'),
+      url('./main/assets/fonts/AtypDisplay-Regular.woff2') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Atyp Display';
+  src: url('./main/assets/fonts/AtypDisplay-Semibold.woff2') format('woff2'),
+      url('./main/assets/fonts/AtypDisplay-Semibold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}

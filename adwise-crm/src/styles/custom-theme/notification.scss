@@ -1,0 +1,42 @@
+.notification-item{
+  font-family: "Atyp Display"!important;
+
+  border: none!important;
+  border-radius: 10px!important;
+}
+
+.notification-danger, .notification-danger .timer{
+  background-color: #DB4368!important;
+}
+
+.notification-success, .notification-success .timer{
+  background-color: #8152E4!important;
+}
+
+.notification-item .notification-content{
+  padding: 20px!important;
+}
+
+.notification-title{
+  font-size: 16px!important;
+  line-height: 19px!important;
+  font-feature-settings: 'ss03' on, 'ss06' on!important;
+  color: white!important;
+  margin-top: 0!important;
+  margin-bottom: 8px!important;
+}
+
+.notification-message{
+  font-size: 14px!important;
+  line-height: 17px!important;
+  font-feature-settings: 'ss03' on, 'ss06' on!important;
+  color: #FFFFFF!important;
+}
+
+.notification-item .notification-close {
+  background-color: transparent!important;
+
+  &:after{
+    font-size: 36px!important;
+  }
+}

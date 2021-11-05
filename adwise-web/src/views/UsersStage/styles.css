@@ -1,0 +1,139 @@
+.container{
+    width: 100%;
+    max-width: 1280px;
+    padding: 20px 40px;
+}
+
+.title{}
+.title span{
+    color: #ed8e00;
+}
+
+.stages{
+    margin-bottom: 160px;
+}
+.stages .stage:nth-child(2n){
+    flex-direction: row-reverse;
+    background-color: rgba(196, 196, 196, 0.1);
+    border-radius: 20px;
+}
+.stages .stage:nth-child(2n) .stage__number{
+    background-color: #ED8E00;
+}
+
+.stage{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+}
+.stage__left{}
+.stage__right{}
+.stage__number{
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+    background-color: #8152E4;
+    margin-bottom: 22px;
+
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    text-align: center;
+
+    font-family: 'Atyp Display';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 50px;
+    font-feature-settings: 'ss03' on, 'ss06' on;
+    color: #FFFFFF;
+}
+.stage__title{
+    font-family: 'Atyp Display';
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 35px;
+    font-feature-settings: 'ss03' on, 'ss06' on;
+    color: #25233E;
+}
+.stage__image{}
+
+.section-app{
+    margin-bottom: 160px;
+}
+.section-app h1{
+    margin-bottom: 40px;
+}
+.section-app__items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -24px;
+}
+.section-app__item{
+    display: flex;
+    align-items: center;
+    margin-left: 24px;
+    padding: 30px 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+}
+.section-app__item-qr-code{
+    margin-left: 96px;
+    width: 104px;
+    height: 104px;
+}
+.section-app__item-qr-code img{
+    width: 100%;
+    height: 100%;
+}
+
+.section-logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+@media (max-width: 991px) {
+    .section-app__items{
+        flex-direction: column;
+    }
+    .section-app__items > *{
+        width: 70%;
+        margin-bottom: 16px;
+    }
+    .section-app__item{
+        justify-content: space-between;
+    }
+
+    .stages .stage:nth-child(2n){
+        flex-direction: column;
+        background-color: transparent;
+    }
+
+    .stages{
+        margin-bottom: 0px;
+    }
+}
+@media (max-width: 640px) {
+    .section-app{
+        margin-bottom: 40px;
+    }
+    .section-logo svg{
+        width: 100%;
+    }
+
+    .section-app__item{
+        justify-content: center;
+        align-items: center;
+        padding: 16px;
+        flex-direction: column;
+    }
+    .section-app__item-qr-code{
+        margin-left: 0;
+        margin-top: 16px;
+    }
+}

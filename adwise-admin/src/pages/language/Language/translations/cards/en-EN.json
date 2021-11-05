@@ -1,0 +1,573 @@
+{
+  "start_screen": {
+    "buttons": {
+      "registration": "Registration",
+      "authorization": "Log in",
+      "privacy_policy": "Privacy Policy",
+      "terms_use": "Terms&Conditions",
+      "cancel": "Undo"
+    },
+    "political": {
+      "start": "By continuing, I agree to",
+      "privacyPolicy": "Private Policy",
+      "termsUse": "and  Terms & Conditions\n",
+      "end": "and accept them"
+    }
+  },
+  "registration": {
+    "header": {
+      "welcome": "Welcome",
+      "phone_number": "Enter your\nphone number",
+      "enter_code_sms": "Enter\nSMS code"
+    },
+    "stage_one": {
+      "please_register": "Please register",
+      "already_registered": "Do you have an account?"
+    },
+    "stage_two": {
+      "send_confirmation_code": "We send you\na confirmation code"
+    },
+    "stage_three": {
+      "sent_to": "Sent to\n {{phone}}",
+      "code_valid_for": "Code is valid for ",
+      "code_timed_request_new": "Code is expired. Please ask for another code",
+      "didnt_receive_code": "I didn't receive a code"
+    },
+    "forms": {
+      "phone_number": "Your phone number"
+    },
+    "buttons": {
+      "by_phone": "By phone number",
+      "login_here": "Log in here",
+      "proceed": "Continue",
+      "resend": "Send again"
+    },
+    "errors": {
+      "number_entered_incorrectly": "Please enter a valid number",
+      "number_registered_system": "An account with this number already exists in the system"
+    },
+    "loadings": {
+      "checks_phone": "Checking your phone number in the database",
+      "send_code_phone_number": "Sending a confirmation code to your phone number"
+    },
+    "modal_filing": {
+      "title": "Done",
+      "message": "Регистрация успешно завершена. \nЖелаете заполнить профиль сейчас?",
+      "button_go": "Заполнить сейчас",
+      "button_skip": "Skip"
+    }
+  },
+  "authorization": {
+    "header": {
+      "entry": "Log in"
+    },
+    "forms": {
+      "phone": "Enter your phone number",
+      "password": "Enter your password"
+    },
+    "buttons": {
+      "forgot_password": "Forgot rassword?",
+      "entry": "Log in"
+    },
+    "errors": {
+      "wrong_login_password": "Invalid login or password"
+    }
+  },
+  "reset_password": {
+    "home": {
+      "title": "Reset\npassword",
+      "button_reset": "Reset your password using mobile phone number"
+    },
+    "phone": {
+      "message": "Restore\nby phone number",
+      "button_request": "Request",
+      "dialog_message": "Resetting password is in progress"
+    },
+    "verification": {
+      "message": "Enter code\nfrom SMS",
+      "message_repeat_code": "Didn't receive a code?",
+      "button_repeat_code": "Send again",
+      "button_send_code": "Reset"
+    }
+  },
+  "dashboard": {
+    "businessCards": {
+      "personal": "Personal business card",
+      "working": "Company Business card",
+      "installed_active_business_card": "Placing an active business card, please, wait until the end of the operation."
+    },
+    "recommendation": {
+      "title": "My recommendations",
+      "empty": "You have no recommendations"
+    },
+    "connections": {
+      "title": "My connections",
+      "empty": "You have no connections"
+    },
+    "qr_code": {
+      "title": "Place \nQR-code in the frame"
+    },
+    "notification": {
+      "subscription": {
+        "message": "You subscribed this company"
+      },
+      "contact_request": {
+        "title": "Business cards exchange request",
+        "message": "You successfully exchanged your business cards with"
+      },
+      "purchase_added": {
+        "title": "Purchase created",
+        "message": "You successfully created an order"
+      },
+      "purchase_confirmed": {
+        "title": "Order paid",
+        "message": "You successfully paid your order"
+      }
+    },
+    "errors": {
+      "organization_empty": {
+        "title": "System notification",
+        "message": "This company is not found in the system"
+      },
+      "coupon_empty": {
+        "title": "System notification",
+        "message": "This coupon is not found in the system"
+      }
+    }
+  },
+  "my_coupons": {
+    "title": "My coupons",
+    "sections": {
+      "fixed": {
+        "title": "Coupons saved"
+      }
+    }
+  },
+  "coupon": {
+    "terms_action": "Terms of action",
+    "cashback_information": "1 level {{cashbackFirstLevel}}% \n 2–21 level {{cashbackOtherLevel}}%"
+  },
+  "payments": {
+    "title": "My orders",
+    "title_archive": "Archive orders",
+    "total_count_purchase": "Goods and services  {{coupons}} pcs.",
+    "success_send_purchase": "You successfully sent a purchase \"{{couponName}}\"",
+    "success_cash_payment": "Thank you. Please wait for the cashier payment confirmation to complete your order",
+    "tabs": {
+      "current": "Current",
+      "history": "Completed"
+    },
+    "notifications": {
+      "reviewed_successfully": "Review is successfully submitted",
+      "reviewed_error": "Problems occurred while sending review",
+      "tips_error": "Problems occurred while sending tips"
+    }
+  },
+  "purchase": {
+    "order": "Order",
+    "text_loading": "Order loading…",
+    "purchase_data": "Purchase details",
+    "purchase_payment": "Purchase payment",
+    "order_not_found": "Order is not found",
+    "created_by": "Created",
+    "paid_by": "Paid",
+    "completed_by": "Completed",
+    "purchase_amount": "Total",
+    "cashback_amount": "Cashback total",
+    "order_number": "Order number",
+    "seller": "Seller",
+    "paid_points": "Paid with bonuses",
+    "cashier_title": "You were served by",
+    "send_error_purchase": "Report a problem",
+    "success_comment_send": "Review is successfully submitted",
+    "bonuses": {
+      "my_bonus": "Your bonuses: {{count}}",
+      "placeholder": "Amount of bonuses",
+      "button_max": "Max. {{count}}",
+      "hint": "Pay up to 99% of the total price. If using bonuses, the total price will be changed"
+    },
+    "comment": {
+      "title": "Leave your comment",
+      "placeholder": "Time for delivery"
+    },
+    "controls": {
+      "payment_amount": "Pay {{sum}} ₽",
+      "button_online": "Online",
+      "button_cash": "Pay at the cashier",
+      "error_cash": "At the moment payment in cash\nis not available"
+    },
+    "evaluation": {
+      "title": "Assessment",
+      "your_feedback": "Your review",
+      "your_feedback_placeholder": "Leave your opinion on the company products",
+      "button_send": ""
+    },
+    "notification": {},
+    "buttons": {
+      "to_archive": "Send to archive"
+    }
+  },
+  "financial_section": {
+    "header_switch": {
+      "financial_section": "Financial\nunit",
+      "referral_program": "Referral\nprogram"
+    },
+    "my_finances": {
+      "title": "My finances",
+      "time_updated_at": "Updated:",
+      "your_balance": "Balance",
+      "to_enrollment": "Will be credited",
+      "button_withdrawal_funds": "Withdrawal request",
+      "checks": "Receipts",
+      "purchase_amount": "Amount of purchases",
+      "rewards": "Rewards",
+      "used_points_sum": "Paid with bonuses",
+      "withdrawal_sum": "Paid out"
+    },
+    "history": {
+      "title": "Operations history",
+      "row_marketing": "Purchase, «{{couponName}}» {{price}}, {{level}} level",
+      "row_purchase": "Purchase, «{{couponName}}» {{price}}, cashback",
+      "row_withdrawal": "Withdrawal of bonuses and cashback",
+      "row_use_points": "Use your bonuses. Purchase, «{{couponName}}»\n«{{organizationName}}»"
+    }
+  },
+  "referral_program": {
+    "founder": {
+      "title": "My recommendations",
+      "not_data": "No data",
+      "founder_card": {
+        "total_percentage": "Total\npercent"
+      }
+    }
+  },
+  "account": {
+    "user": {
+      "copy_code": "Code has been copied",
+      "your_code": "Your code"
+    },
+    "menu": {
+      "feedback": "Q&As",
+      "contacts": "Contacts",
+      "about_app": "About the app",
+      "legal_information_home": "Legal information",
+      "settings": "Settings",
+      "my_payments_archive": "Archive orders",
+      "coupons_disabled": "Hidden coupons",
+      "exit": "Exit"
+    },
+    "invitation": {
+      "title": "Invite a company to AdWise",
+      "description": "Get 30$ for each company added to AdWise"
+    },
+    "application": {
+      "description": "Do you want to add your company to this app?",
+      "button": "Submit an application"
+    }
+  },
+  "profile": {
+    "header": "Profile",
+    "header_edit": "Edit your profile",
+    "name": "First name",
+    "surname": "Last Name",
+    "gender": "Gender",
+    "date_birth": "Date of birth",
+    "phone": "Phone number",
+    "provide_email": "Provide your email",
+    "provide_phone_number": "Provide your phone number",
+    "edit": "Edit",
+    "change": "Change",
+    "send_edit": "Done",
+    "upload_image": "Download an image",
+    "help_edit_message": "Please enter correct data. \nThey can be used for restoring your access",
+    "updating_contacts": "Contacts update",
+    "data_changed_successfully": "Data successfully changed. Updating your contacts is in progress"
+  },
+  "purchaseStatus": {
+    "paid": "Paid",
+    "canceled": "Return&Refund",
+    "not_paid": "Not paid",
+    "during": "Processing",
+    "completed": "Completed"
+  },
+  "common": {
+    "search": "Search",
+    "scheduler": "Completed",
+    "scan": "Scan",
+    "send": "Send",
+    "share": "Share",
+    "cashback": "Cashback  ",
+    "pay": "Pay",
+    "hide": "Hide",
+    "unsubscribe": "Unsubscribe",
+    "subscribe": "Subscribe",
+    "receive": "Receive",
+    "clear": "Clear",
+    "leave_tip": "Leave tips",
+    "loading_message": "Loading…",
+    "contact_support": "Contact Support service",
+    "current_city_empty": "Your city",
+    "system_notification": "System notification",
+    "organization_disabled": "Company is disconnected",
+    "coupon_disabled": "Coupon is disconnected",
+    "not_filled": "Not completed",
+    "not_data": "No data",
+    "not_specified": "Not stated",
+    "go_back": "Back",
+    "user_shared_coupon": "User {{firstName} {{lastName}} recommends you a coupon {{couponName}} \n {{url}}",
+    "user_shared_organization": "User {{firstName} {{lastName}} is inviting you in the organization {{organizationName}} \n {{url}}",
+    "user_shared_app": "User {{firstName} {{lastName}} is inviting you into AdWise App \n {{url}}",
+    "create_subscription": "Create a subscription",
+    "apply": "Use",
+    "return": "Back",
+    "level": "level",
+    "exchange": "Exchange",
+    "refuse": "Refuse",
+    "count_mini": "pcs",
+    "organizations": "Organizations",
+    "please_select": "Choose",
+    "loading_progress": "Loading",
+    "user_shared_cards": "User {{firstName} {{lastName}} wants to exchange business cards with you \n {{url}}",
+    "unpin": "Unpin",
+    "anchor": "Pin",
+    "collapse": "Minimize",
+    "expand_description": "Show details"
+  },
+  "gender": {
+    "male": "Male",
+    "female": "Female",
+    "other": "Other"
+  },
+  "permissions": {
+    "camera": {
+      "not_granted": "System asks for permission to use your phone camera"
+    },
+    "image_picker": {
+      "not_granted": "System asks for permission to use your phone gallery"
+    },
+    "title": "Permissions are not provided",
+    "location": {
+      "message": "System asks for permission to use the user geolocation",
+      "not_granted": "System asks for permission to use your phone gallery"
+    }
+  },
+  "notification": {
+    "title": {
+      "success": "Successfully",
+      "error": "Error",
+      "info": "",
+      "system_notification": "System notification"
+    }
+  },
+  "image_picker": {
+    "choose_gallery": "Select from the gallery",
+    "camera": "Camera",
+    "cancel": "Undo"
+  },
+  "yup": {
+    "string": "Please enter a line",
+    "required": "Must be completed",
+    "min": "Минимуми {{length}} символов",
+    "email": "Please enter a valid email address",
+    "phone": "Please enter a valid phone number",
+    "regexp_url": "Please enter a correct URL"
+  },
+  "bottom_navigation": {
+    "business_cards": "Cards",
+    "contacts": "Contacts",
+    "coupons": "Coupons",
+    "favorites": "Favorite",
+    "finance": "Finances",
+    "more": "More"
+  },
+  "edit_personal_business_card": {
+    "title": "Edit your personal business card",
+    "common_data": "Overview",
+    "common_data_message": "Before completing your business card please complete your user profile",
+    "contact_details": "Contact info",
+    "social_networks": "Social networks",
+    "personal_information": "Personal details",
+    "personal_information_message": "Customer consultation on colors",
+    "business_card_colors": "Select a color of your business card",
+    "button_upload_image": "Download an image",
+    "forms": {
+      "activity": {
+        "title": "Job\nposition in the company",
+        "placeholder": "Seller"
+      },
+      "phone": {
+        "title": "Phone",
+        "placeholder": "+7 123 456-78-90"
+      },
+      "email": {
+        "title": "E-mail",
+        "placeholder": "info@wise.win"
+      },
+      "website": {
+        "title": "Website",
+        "placeholder": "https:\n\nadwise.cards"
+      }
+    },
+    "colors_picker": {
+      "title": "To choose the color\n click on central circle",
+      "transparency": "Transparency",
+      "saturation": "Saturation",
+      "button_other": "Another way",
+      "button_save": "Save"
+    },
+    "notifications": {
+      "update": {
+        "title": "Successfully",
+        "message": "Your data has been successfully saved"
+      }
+    }
+  },
+  "language_selection": {
+    "title": "Select a language"
+  },
+  "about_app": {
+    "title": "About the app",
+    "version": "Version",
+    "button_change_history": "History of changes"
+  },
+  "business_card_all_contact": {
+    "title": "All connections"
+  },
+  "business_card_all_recommendation": {
+    "title": "All recommendations"
+  },
+  "certificates": {
+    "title": "My certificates",
+    "description": "Certificate is a personal offer for your purchase from the company. Can be used once only",
+    "empty": "You have no active \ncertificates",
+    "what_are_certificates": "What are certificates?",
+    "how_get": "How to receive",
+    "how_use": "How to use"
+  },
+  "city_selection": {
+    "title": "Please\nselect your city",
+    "caption": "To provide you \nwith the most relevant offers",
+    "button_save": "Save"
+  },
+  "company_pages": {
+    "order": "Order",
+    "your_cashback": "Your cashback",
+    "suggestions": "Suggestions",
+    "organization_coupons": "Coupons of company",
+    "not_filled": "Empty",
+    "you_have_reached_maximum_coupons": "You reached the maximum amount of coupons",
+    "text_loading": "Loading…",
+    "schedule_message": "Today from {{from}} to {{to}}",
+    "promotions": "Coupons",
+    "tab_info": "Information",
+    "tab_about": "About company",
+    "tab_contacts": "Contacts",
+    "staff": "Staff",
+    "clients": "Clients",
+    "buy_coupon_count": "Amount in pcs",
+    "create_order": "Make an order",
+    "total_count_create_order": "{{totalCount}} positions \n {{totalSum}} ₽",
+    "operations_history": "History of operations",
+    "no_found_active_business_card": "Active business card is not found",
+    "coupon_add_from_user": "Coupon added",
+    "create": "Create",
+    "next": "Next",
+    "share_company": "Share\ncompany",
+    "share_mini": "Share",
+    "share": "Share",
+    "done": "Done",
+    "open_map": "Open map",
+    "map": {
+      "title": "Building the route"
+    }
+  },
+  "contacts": {
+    "title": "Contacts",
+    "not_permission": "You gave no permission",
+    "button_user_system": "Show system users",
+    "message_permission": "To make Contacts section work please give your permission for using Contacts",
+    "button_open_setting": "Open settings",
+    "to_invite": "Invite",
+    "open_business_card": "Open a business card"
+  },
+  "coupons_disabled": {
+    "title": "Hidden coupons"
+  },
+  "feedback": {
+    "title": "Feedback"
+  },
+  "finance": {
+    "titleLevel1": "1st Level",
+    "titleLevel2": "person",
+    "mentor": "Sponsor",
+    "not_mentor": "You have no sponsor yet",
+    "titleLevel2_21": "2nd - 21st level",
+    "my_bank_cards": "My bank cards",
+    "percent": "Percent",
+    "all_history": "Whole history",
+    "row_marketing_message": "Purchase, «{{couponName}}» {{sum}}₽, {{level}} lvl",
+    "row_purchase_message": "Purchase, «{{props.couponName}}» {{sum}}₽, cashback",
+    "row_withdrawal_message": "Bonuses and cashback withdrawal",
+    "error_create_withdrawal": "Request for money withdrawal is impossible to create",
+    "history": "History",
+    "link_card": "Add a bank card",
+    "general_information": "General information",
+    "personal_level": "Personal\nlevel",
+    "personal_cashback": "Personal\ncashback",
+    "your_cashback": "Your\ncashback"
+  },
+  "history_change_app": {
+    "title": "History of changes"
+  },
+  "information_when_exchanging": {
+    "message_loading": "Loading your invitation",
+    "exchange_business_cards": "Exchange of business cards",
+    "invitation_company": "Invitation to join the company",
+    "notifications": {
+      "fix_exchange": {
+        "message_success": "Request for business cards exchange is sent",
+        "message_error": "You have already subscribed to this company"
+      },
+      "accept_user": {
+        "message": "You shared your business cards with this user"
+      },
+      "cancel_user": {}
+    }
+  },
+  "legal_information": {
+    "title": "Legal information",
+    "terms_of_use": "Terms of Use",
+    "privacy_policy": "Privacy Policy",
+    "cookie_policy": "Policy of cookie usage"
+  },
+  "personal_business_card": {
+    "title": "Edit\nyour personal business card"
+  },
+  "scheduler": {
+    "title": "Planner",
+    "button_create": "Add a task"
+  },
+  "selected_city": {
+    "title": "Select a city or a region",
+    "placeholder": "City or region"
+  },
+  "components": {
+    "coupon": {
+      "organization_disabled": "Company is disconnected",
+      "coupon_disabled": "Coupon is disconnected",
+      "coupon_out_stock": "Coupon is out of stock"
+    },
+    "form_sending_tips": {
+      "serves_you": "You are served by",
+      "did_you_like_everything": "Did you like it?",
+      "done": "Done",
+      "check_amount": "Amount in the receipt",
+      "enter_amount": "Enter the amount",
+      "minimum_amount": "Minimum amount",
+      "please_describe_situation": "Please describe your situation"
+    },
+    "cutaway": {
+      "partner_company": "Partner company"
+    }
+  }
+}

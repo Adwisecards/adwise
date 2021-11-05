@@ -1,0 +1,103 @@
+{
+  "dashboard": {
+    "my_cards_title": {
+      "personal": "Личная визитка",
+      "working": "Рабочая визитка"
+    },
+    "my_recommendations_title": "Мои рекомендации",
+    "my_connections_title": "Мои связи"
+  },
+  "start_screen": {
+    "button_political": {
+      "left": "Продолжая, я подтверждаю, что ознакомлен с",
+      "link_left": "Политикой конфиденциальности",
+      "link_right": "Пользовательским соглашением",
+      "right": "и принимаю их условия"
+    },
+    "buttons": {
+      "registration": "Зарегистрироваться",
+      "authorization": "Войти",
+      "continue_through": "Продолжить через"
+    }
+  },
+  "registration_home_screen": {
+    "header_title": "Регистрация",
+    "button_title_phone": "Ваш номер телефона",
+    "button_title_email": "Ваш e-mail",
+    "text": {
+      "or": "или",
+      "text_social_line_1": "или зарегистрироваться",
+      "text_social_line_2": "через соц. сети"
+    }
+  },
+  "registration_phone_screen": {
+    "header_title": "Регистрация",
+    "form_title_phone": "Ваш номер телефона",
+    "form_placeholder_phone": "Номер",
+
+    "form_title_code": "Введите код полученный из смс",
+    "form_placeholder_code": "Код"
+  },
+  "registration_from_screen": {
+    "header_title": "Регистрация",
+    "form": {
+      "first_name": "Имя",
+      "last_name": "Фамилия",
+      "dob": "Дата рождения",
+      "gender": "Ваш пол",
+      "password": "Пароль",
+      "repeat_password": "Повторите пароль"
+    }
+  },
+  "login": {
+    "header_title": "Вход",
+    "form": {
+      "phone": {
+        "title": "Введите номер \nтелефона",
+        "placeholder": "Номер или e-mail"
+      },
+      "password": {
+        "title": "Введите пароль",
+        "placeholder": "Пароль"
+      }
+    },
+    "social_text": "или войдите через соц. сети"
+  },
+  "header": {
+    "placeholder_search": "Поиск"
+  },
+  "controls": {
+    "scheduler": "Планировщик",
+    "scan": "Сканировать",
+    "share": "Поделиться"
+  },
+  "buttons": {
+    "more_details": "Подробнее",
+    "share": "Поделиться",
+    "proceed": "Продолжить",
+    "register_now": "Зарегистрироваться",
+    "forgot": "Забыли пароль?",
+    "to_come": "Войти",
+    "reset": "Сбросить"
+  },
+  "bottom_navigation": {
+    "business_cards": "Визитки",
+    "contacts": "Контакты",
+    "coupons": "Купоны",
+    "favorites": "Избранное",
+    "finance": "Финансы",
+    "more": "Еще"
+  },
+
+  "placeholders": {
+    "firstName": "Иван",
+    "email": "yourmail@mail.ru",
+    "phone": "+1 111 111-11-11",
+    "lastName": "Иванов",
+    "gender": "",
+    "": "",
+    "": "",
+    "": "",
+    "": ""
+  }
+}

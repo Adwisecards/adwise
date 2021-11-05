@@ -1,0 +1,67 @@
+{
+  "expo": {
+    "name": "AdWise Business",
+    "slug": "cards-adwise-business",
+    "version": "1.3.4",
+    "sdkVersion": "39.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "enabled": false
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "cards.adwise.business",
+      "buildNumber": "1",
+      "googleServicesFile": "GoogleService-Info.plist",
+      "icon": "./assets/icon-app-ios.png",
+      "supportsTablet": false,
+      "splash": {
+        "image": "./assets/splash-ios.png",
+        "resizeMode": "cover",
+        "backgroundColor": "#ffffff"
+      },
+      "infoPlist": {
+        "UIBackgroundModes": ["fetch", "remote-notification"],
+        "UISupportedInterfaceOrientations": ["UIInterfaceOrientationPortrait"],
+        "NSCameraUsageDescription": "С помощью камеры удобно считывать QR визиток и купонов для быстрого доступа к ним",
+        "NSMicrophoneUsageDescription": "application is used to scan the QR code and upload the user's profile picture and business card.",
+        "NSPhotoLibraryAddUsageDescription": "Для загрузки изображения профиля пользователя",
+        "NSPhotoLibraryUsageDescription": "Для загрузки изображения профиля пользователя",
+        "NSLocationAlwaysUsageDescription": "Поможет приложению подбирать для Вас наиболее близкие предложения в Вашем городе",
+        "NSLocationWhenInUseUsageDescription": "Поможет приложению подбирать для Вас наиболее близкие предложения в Вашем городе",
+        "UIApplicationDelegate": "Used to get the invitation code of the user when he went to applications using a link from the site",
+        "NSContactsUsageDescription": "Необходимы для поиска среди Ваших контактов уже зарегистрированных пользователей"
+      }
+    },
+    "android": {
+      "versionCode": 26,
+      "permissions": [
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "INTERNET",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "NOTIFICATIONS",
+        "RECEIVE_BOOT_COMPLETED"
+      ],
+      "package": "cards.adwise.business",
+      "googleServicesFile": "google-services.json"
+    },
+    "extra": {
+      "bugsnag": {
+        "apiKey": "045a51a16825b0e17b4a94b853a0c173"
+      }
+    },
+    "scheme": "cards.adwise.business"
+  }
+}

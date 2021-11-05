@@ -1,0 +1,30 @@
+@import "./global.scss";
+@import "./buttons.scss";
+@import "./form.scss";
+@import "./menu.scss";
+@import "./tabs.scss";
+
+// 2px solid #8152E4
+
+.ant-steps-item-container .ant-steps-item-title {
+  font-size: 20px;
+}
+
+.ant-steps-item-wait .ant-steps-item-icon {
+  background-color: transparent !important;
+}
+
+.ant-steps-item-container
+  .ant-steps-item-wait
+  .ant-steps-item-icon
+  > .ant-steps-icon {
+  color: #8152e4;
+}
+
+.ant-steps-item-process .ant-steps-item-title {
+  font-weight: 300 !important;
+}
+
+.ant-steps-item-process .ant-steps-item-icon {
+  border-color: #8152e4;
+}

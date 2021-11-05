@@ -1,0 +1,43 @@
+.container-login{
+  display: flex;
+
+  position: relative;
+
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.container-login__content-logo{
+  display: flex;
+  justify-content: flex-end;
+
+  position: absolute;
+
+  right: calc(100% + 24px);
+}
+
+.container-login__logo{
+  padding: 18px;
+  padding-left: 130px;
+
+  background: linear-gradient(270deg, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0) 100%);
+  border-radius: 12px;
+}
+
+.container-login__content{
+  max-width: 640px;
+  width: 100%;
+
+  padding: 48px 52px;
+
+  background: linear-gradient(180deg, #FFFFFF 7.52%, rgba(255, 255, 255, 0) 100%);
+  border-radius: 12px;
+
+  overflow: hidden;
+}
+
+.container-login__container-people{}
+
+.container-login__people{
+  margin-left: -24px;
+}

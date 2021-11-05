@@ -1,0 +1,1 @@
+export { ExcelIcon } from "./documents";

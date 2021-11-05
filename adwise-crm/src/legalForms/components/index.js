@@ -1,0 +1,5 @@
+export { default as ComponentDate } from "./ComponentDate"
+export { default as ComponentFile } from "./ComponentFile"
+export { default as ComponentInput } from "./ComponentInput"
+export { default as ComponentPhone } from "./ComponentPhone"
+export { default as ComponentAddress } from "./ComponentAddress"

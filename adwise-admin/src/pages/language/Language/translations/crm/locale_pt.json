@@ -1,0 +1,690 @@
+{
+  "authorization": {
+    "title": "Войти в аккаунт",
+
+    "form": {
+      "email": "Ваша почта",
+      "password": "Пароль"
+    },
+    "privacy": {
+      "word1": "Продолжая, я подтверждаю, что ознакомлен с",
+      "word2": "Политикой конфиденциальности",
+      "word3": "Пользовательским соглашением",
+      "word4": "и принимаю их условия"
+    },
+    "buttons": {
+      "authorization": "Авторизоваться",
+      "wise_win": "Войти через Wise Win",
+      "password_reset": "Забыли пароль?",
+      "registration": "Регистрация"
+    }
+  },
+  "registration": {
+    "title": "Создать аккаунт для своего бизнеса",
+    "caption": "Бесплатный доступ к полному функционалу AdWise на 7 дней",
+    "form": {
+      "name": "Имя",
+      "last_name": "Фамилия",
+      "email": "E-mail",
+      "password": "Пароль",
+      "password_repeat": "Подтвердить пароль"
+    },
+    "privacy_policy": {
+      "word1": "Я ознакомился с",
+      "word2": "Политикой конфиденциальности",
+      "word3": "и принимаю ее условия."
+    },
+    "terms_offer": {
+      "word1": "Я ознакомился и принимаю",
+      "word2": "Условия оферты"
+    },
+    "errors": {
+      "password_length": "Пароль должен быть больше 6 символов",
+      "password_repeat": "Пароль должен быть больше 6 символов",
+      "privacy_policy": "Нужно принять правила \"Политики конфиденциальности\"",
+      "terms_offer": "Нужно принять правила \"Условия оферты\""
+    },
+    "buttons": {
+      "continue_registration": "Продолжить регистрацию",
+      "already_have_account_come": "Уже есть аккаунт? Войти"
+    }
+  },
+  "registration_confirmation": {
+    "title": "Подтверждение регистрации аккаунта",
+    "caption": "На вашу почту \"{{email}}\" отправлено сообщение с кодом подтверждения\n",
+    "code": "Ваш код из сообщения",
+    "button": "Подтвердить и войти",
+    "error_code": "Не правильный код"
+  },
+  "profile_selection": {
+    "title": "Добро пожаловать",
+    "caption": "Пожалуйста, выберите ваш тип профиля",
+    "message_loading": "Идет установка типа профиля",
+    "business": {
+      "title": "Бизнес",
+      "message": "CRM для управления Вашим бизнесом в экосистеме AdWise. Подходит для собственников и управляющих компаний."
+    },
+    "distributor": {
+      "title": "Дистрибьютор AdWise",
+      "message": "CRM для управления Вашими продажами лицензий в экосистеме AdWise. Подходит для активных пользователей"
+    },
+    "buttons": {
+      "entry_type": "Выбрать",
+      "skip": "Выбрать позже"
+    }
+  },
+  "reset_password": {
+    "title": "Сброс пароля",
+    "caption": "На вашу почту придет код подтверждения сброса пароля",
+    "caption2": "На вашу почту отправлен код подтверждения сброса пароля",
+    "email": "Ваша почта",
+    "code": "Ваш код",
+    "button_reset": "Сбросить пароль",
+    "button_send": "Отправить пароль",
+    "button_repeat": "Вести E-mail"
+  },
+  "layouts": {
+    "main": {
+      "header": {
+        "button_exit": "Выход",
+        "telegram_tooltip": "Есть вопросы?<br>Напишите нам в телеграмм!"
+      },
+      "sidebar": {
+        "my_company": {
+          "overview": "Обзор",
+          "organization": "Моя компания",
+          "employees": "Сотрудники",
+          "cutaways": "Шаблоны визиток"
+        },
+        "control": {
+          "coupons": "Акции",
+          "clients": "Клиенты",
+          "bills": "Покупки",
+          "products": "Товары и услуги",
+          "operations": "Операции",
+          "tariffs": "Тарифы и оплата",
+          "adwise_business": "Adwise Business",
+          "materials": "Документы и материалы",
+          "feedback": "Форма обратной связи",
+          "application_form": "Форма подачи заявки",
+          "manager": "Дистрибьютор AdWise",
+          "question_answer": "Вопрос-ответ"
+        }
+      }
+    },
+    "authorization": {
+      "user_agreement": "Пользовательское соглашение",
+      "privacy_policy": "Политика конфиденциальности"
+    }
+  },
+  "dashboard": {
+    "title_no_organization": "У вас нет организации?",
+    "employees": "Сотрудников",
+    "number_paid_purchases": "Количество<br>оплаченных покупок",
+    "amount_sales": "Сумма<br>продаж",
+    "cashback_amount": "Сумма<br>кэшбэка",
+    "marketing_amount": "Сумма<br>маркетинга",
+    "number_shares_active_total": "Количество акций<br>активных / всего",
+    "to_enrollment": "К зачислению",
+    "withdraw_funds": "Вывод средств",
+    "distributor_adwise": "Дистрибьютор<br/>AdWise",
+    "last_update_time": "Время последнего обновления: {{time}}",
+    "top_employees_terms_sales": "Топ-3 сотрудников<br>по сумме продаж",
+    "my_company": "Моя<br>компания",
+    "recent_transactions": "Последние<br>операции",
+    "all_operations": "все операции",
+    "purchase_amount": "Сумма покупок",
+    "enter_your_manager_code": "Введите<br/>код вашего<br/>менеджера",
+    "manager_needed_supervise_work_system": "Менеджер нужен для курирования работы в системе",
+    "personal_manager": "Персональный<br>менеджер",
+    "withdrawal_request": {
+      "title": "Заявка на вывод средств",
+      "withdrawal_amount": "Сумма вывода",
+      "available_withdrawal": "Доступно к выводу {{points}}"
+    },
+    "withdrawal_request_success": {
+      "title": "Заявка на вывод средств",
+      "message": "Заявка на вывод средств успешно оформлена."
+    }
+  },
+  "organization_about": {
+    "title": "Моя компания",
+    "errors_found_about_company": "Во вкладке \"О компании\" обнаружено ошибок: {{error}}",
+    "errors_found_requisites": "Во вкладке \"Реквизиты\" обнаруженно ошибок: {{error}}",
+    "errors_old_address": "Формат поля \"Адрес организации\" изменен. Перейдите во вкладку \"О компании\" и обновите значение поля.",
+    "organization_link_added_clipboard": "Ссылка организации добавлена в буфер обмена",
+    "company_data_not_filled_correctly": "Данные компании заполнены не правильно.",
+    "example_display_client_phone": "Пример отображения <br/>на телефоне клиента",
+    "organization_email": "Электронная почта организации",
+    "indicate_legal_form_company": "Укажите правовую форму компании",
+    "phone_organization": "Телефоны организации",
+    "fill_1_tag": "Заполните 1 тег",
+    "fill_1_2tag": "Добавите 1—3 и более тегов связанных с деятельностью вашей компании",
+    "image_minimal_375x242": "Минимальное разрешение 375х242. <br/>Изображения из интернета и фотографии <br/>использовать не рекомендуется",
+    "image_minimal_200x200": "Минимальное разрешение 200х200. <br/>Изображения из интернета и <br/>фотографии использовать не <br/>рекомендуется",
+    "indicated_without_legal_form": "Указывается без правовой формы",
+    "describe_activities_your_company": "Опишите деятельность вашей компании",
+    "indicate_entrance_floor_presence_intercom": "Укажите подъезд, этаж, наличие домофона и др",
+    "request_payment_terminal_change": "Запросить изменение платежного терминала с {{from}} на {{to}}",
+    "good_day": "Доброго времени суток",
+    "good_day_message": "Мы выпустили обновление нашей системы: теперь Вам не нужно заполнять отдельную форму для создания банковской точки - все данные берутся из формы в Реквизитах. Если Вы сейчас хотите создать банковскую точку - заполните основные поля во вкладке Реквизиты.",
+    "bank_points": "Банковские точки",
+    "bank_points_tooltip": "Банковская точка - это Ваша облачная онлайн-касса, Ваш индентификатор в банке для работы с Вами. Она необходима для подключения более выгодного платёжного терминала.",
+    "current_bank_point": "Текущая банковская точка",
+    "last_bank_point": "Предыдущая банковская точка",
+    "bank_point_empty": "Банковская точка не заполнена",
+    "payment_terminal": "Платежный терминал",
+    "payment_terminal_tooltip": "Смена терминала позволит Вам получать выплаты напрямую от банка без ожидания со стороны Эдвайз. Для формы Самозанятый новый терминал это безопасная сделка, для других форм - сплитование.",
+    "current_payment_terminal": "Текущий терминал",
+    "count_symbol": "{{count}} символов",
+    "not_organization_from_inn": "По вашему ИНН не найдено организации",
+    "not_organization_from_bic": "По вашему БИК не найдено банка",
+    "inn_organization": "ИНН организации",
+    "bik_bank": "БИК банка",
+    "before_filling_requisites_choose_legal_organization": "Перед заполнение \"Реквизиты\" нужно выбрать правовую форму организации",
+    "automatic_filling_organization_data": "Автоматическое заполнение данных об организации",
+    "select_organization_legal_form": "У вас выбрана правовая форма «{{legalForm}}»",
+    "autocomplete_form": "Форма автозаполнения",
+    "indicate_main_type_activity": "Укажите основной вид деятельности",
+    "autocomplete_form_message": "Укажите в форме свой ИНН и БИК вашего банка для заполнения основной информации.<br/>Информация берётся на основе официальных данных.",
+    "there_blank_fields": "есть незаполненные поля",
+    "referral_system": {
+      "title": "Базовая реферальная программа",
+      "first_level": "1 уровень",
+      "other_level": "2—21 уровень",
+      "adwise_expenses": "Расходы Adwise",
+      "cashback_buyer": "Кэшбек покупателю",
+      "amount_returned_customer_purchase": "сумма возврата клиенту <br/> с покупки",
+      "including_transaction_costs": "включая расходы  <br/> на осуществление транзакций",
+      "referrer_will_receive1": "Рекомендатель получит",
+      "referrer_will_receive2": "каждой покупки друга"
+    },
+    "forms": {
+      "phone": "Телефон",
+      "social_networks": "Социальные сети",
+      "tags": "Теги",
+      "name": "Название компании",
+      "legal_form": "Правовая форма",
+      "briefDescription": "Краткое описание",
+      "description": "Подробное описание",
+      "addressId": "Адрес организации",
+      "addressDetails": "Комментарий к адресу",
+      "website": "Сайт организации",
+      "logo": "Логотип",
+      "background": "Подложка",
+      "category": "Вид деятельности"
+    },
+    "placeholders": {
+      "please_indicate": "Укажите",
+      "sale_flowers": "Продажа цветов",
+      "name": "Ромашка",
+      "briefDescription": "Деятельность организации"
+    },
+    "tabs": {
+      "about_company": "О компании",
+      "requisites": "Реквизиты",
+      "bank_points": "Банковские точки",
+      "tariff": "Тариф"
+    },
+    "buttons": {
+      "change_data": "Изменить данные",
+      "request_data_changes": "Запросить изменения данных",
+      "download_questionnaire": "Скачать анкету ",
+      "bind": "Привязать",
+      "go_route": "Перейти",
+      "request_payment_terminal_change": "Запросить изменение платежного терминала",
+      "create_bank_point": "Создать банковскую точку"
+    },
+    "errors": {
+      "placeId": "Заполните адрес",
+      "website": "Неверная ссылка",
+      "minPhone": "Укажите минимум {{count}} телефон",
+      "errorPhone": "Неверный формат телефона"
+    },
+    "bank_card": {
+      "title": "Банковская карта",
+      "empty": "У вас не привязана банковская карта.",
+      "message_route": "Перейдите по ссылке для привязке банковской карты",
+      "your_card": "Ваша банковская карта",
+      "delete_card": "Удалить карту"
+    }
+  },
+  "employees": {
+    "title": "Сотрудники",
+    "table": {
+      "header": {
+        "manager": "Менеджер",
+        "activity": "Должность",
+        "phone": "Телефон",
+        "email": "Почта",
+        "rating": "Рейтинг"
+      },
+      "body": {
+        "active_employ": "Включить сотрудника",
+        "disabled_employ": "Выключить сотрудника"
+      }
+    }
+  },
+  "employees_create": {
+    "title": "Новый сотрудник",
+    "caption": "Сотрудниками компании могут быть указаны только пользователи приложения, подписанные на компанию.",
+    "list_clients": "Список клиентов",
+    "cashier": "Кассир",
+    "manager": "Менеджер",
+    "not_clients": "У вас нет клиентов, чтобы добавить сотрудников",
+    "table": {
+      "header": {
+        "name": "Имя",
+        "phone": "Телефон",
+        "email": "Почта",
+        "role": "Роль"
+      }
+    },
+
+    "success_create_employ": "Клиент компании {{lastName}} {{firstName}} успешно стал вашим сотрудником.",
+    "error_create_employ": "Клиент компании {{lastName}} {{firstName}} не может стать вашим сотрудником."
+  },
+  "coupons": {
+    "title": "Список акций",
+    "change_sort_order": "Изменить порядок сортировки",
+    "order_successfully_changed": "Поряд успешно изменен",
+    "order_error_changed": "Ошибка изменения сортировки",
+    "create_coupon_based": "Создать купон на основании",
+
+    "no_coupons": {
+      "title": "Ваши акции будут здесь!",
+      "message": "Разместите информацию о программе лояльности в вашем заведении<br/>для этого скачайте и распечатайте тейбл тент",
+      "create_coupon": "Создать купон"
+    },
+    "tabs": {
+      "all": "Все",
+      "active": "Активные",
+      "disabled": "Выключенные",
+      "service": "Услуги",
+      "products": "Товары"
+    },
+    "table": {
+      "header": {
+        "date": "Дата",
+        "name": "Наименование",
+        "type": "Тип акции",
+        "price": "Стоимость",
+        "count": "Общее кол-во",
+        "count_use": "Кол-во использ.",
+        "amount": "Сумма оплат",
+        "amount_cashback": "Сумма кэшбэк",
+        "amount_marketing": "Сумма маркетинг",
+        "sort_index": "Порядок сортировки"
+      }
+    }
+  },
+  "coupons_create": {
+    "new_coupon": "Новая акция",
+    "referral_program_action": "Реферальная программа акции",
+    "wait_preparing_data": "Подождите, подготавливаем данные...",
+    "promotion_successfully_created": "Акция успешно создана",
+    "upload_document": "Загрузить документ",
+    "main_title_60_characters": "Основной заголовок акции, до 60 символов",
+    "additional_description_length": "Дополнительное описание акции до 200 символов",
+    "terms_delivery_goods_refunds": "Условия доставки товара и возврата оплаты",
+
+    "forms": {
+      "promotional_title": "Заголовок акции",
+      "location_empty": "Введите",
+      "terms_action": "Условия акции",
+      "terms_action_document": "Можно загрузить pdf или doc, размер не более 3мб",
+      "duration_action": "Длительность акции",
+      "type_action": "Тип акции",
+      "description": "Описание",
+      "quantity": "Количество использований акции",
+      "promotion_period": "Период проведения акции",
+      "location_action": "Место проведения акции",
+      "price": "Стоимость акции",
+      "image": "Изображение"
+    },
+    "placeholders": {
+      "location": "Екатеринбург",
+      "by": "По",
+      "one_day": "1 день",
+      "lip_contouring": "Контурная пластика губ",
+      "type_selected": "Выберите",
+      "description_action": "Описание акции"
+    },
+    "errors": {
+      "coupon_not_found": "Купон не найден",
+      "price_minimal": "Минимальная стоимость акции {{price}} рублей",
+      "type_select": "Выберите"
+    }
+  },
+  "clients": {
+    "title": "Клиенты",
+    "export": "Экспорт клиентов",
+    "stats": {
+      "title": "Статистика",
+      "all_clients": "Всего клиентов",
+      "payments": "Оплатили",
+      "count_payments_purchase": "Количество оплаченных покупок"
+    },
+    "table": {
+      "header": {
+        "client": "Клиент",
+        "count_purchase": "Кол-во чеков",
+        "sum_purchase": "Сумма покупок",
+        "cashback": "Кэшбэк",
+        "status": "Статус"
+      },
+      "body": {
+        "user_unsubscribe": "Пользователь отписан от организации",
+        "user_subscribe": "Пользователь подписан на организацию"
+      }
+    }
+  },
+  "client": {
+    "tabs": {
+      "operations": "Операции",
+      "rewards": "Вознаграждения"
+    },
+    "information": {
+      "purchase_count": "Количество чеков",
+      "purchase_sum": "Сумма покупок",
+      "cashback_count": "Кэшбэк",
+      "used_points_sum": "Оплаченно балами"
+    },
+    "operations": {
+      "header": {
+        "purchase": "Покупка",
+        "date": "Дата",
+        "cashier": "Кассир",
+        "payment": "Оплата",
+        "bonus": "Оплата, баллы"
+      },
+      "body": {
+        "temporarily_unavailable": "Временно недоступно"
+      }
+    },
+    "rewards": {
+      "header": {
+        "purchase": "Покупка",
+        "date": "Дата",
+        "payment": "Сумма покупки",
+        "bonus": "Вознаграждение"
+      }
+    }
+  },
+  "bills": {
+    "title": "Покупки клиентов",
+    "points": "баллов",
+    "dialog_coupons": {
+      "title": "Покупки"
+    },
+    "filter": {
+      "status": "Статус"
+    },
+    "table": {
+      "header": {
+        "score": "Счёт",
+        "name": "Наименование",
+        "type": "Тип операции",
+        "date_create": "Дата создания",
+        "date_payment": "Дата оплата",
+        "date_completion": "Дата завершения",
+        "status": "Статус",
+        "amount": "Сумма",
+        "cashback": "Кэшбэк",
+        "marketing": "Маркетинг",
+        "client": "Клиент",
+        "receipt": "Чек",
+        "comment": "Комментарий",
+        "feedback": "Отзыв",
+        "evaluation": "Оценка"
+      }
+    }
+  },
+  "bill_create": {
+    "title": "Создание счета",
+    "products": "Товары",
+    "add_coupon_order": "Добавить купон в заказ",
+    "add_product": "Добавить товар",
+    "clients": "Клиенты",
+    "add_customer": "Добавить клиента",
+    "create_send_invoices_clients": "Создать и отправить счета для клиентов",
+    "send_invoice": "Отправить счёт",
+    "add_customer_order": "Добавить клиента в заказ",
+    "notification_success_created": "Покупки успешно созданы и отправлены пользователям",
+    "positions": "позиций",
+    "clients_dialog": {
+      "title": "Клиенты не выбраны",
+      "name": "Пользователь",
+      "cashback": "Сумма кэшбэка",
+      "count_purchase": "Кол-во покупок",
+      "user_points": "Использование баллов"
+    },
+    "products_table": {
+      "empty": "Товары не выбраны",
+      "product": "Товар",
+      "count": "Кол-во",
+      "price": "Цена",
+      "amount": "Сумма",
+      "total": "Итого"
+    }
+  },
+  "operations": {
+    "title": "Операции",
+    "stats": {
+      "marketing_sum_title": "Сумма<br/>маркетинга",
+      "marketing_sum_tooltip": "комиссия Эдвайз с покупок",
+      "cashback_sum_title": "Сумма<br/>кэшбэка",
+      "cashback_sum_tooltip": "кэшбек пользователей-рефералов с покупок",
+      "purchase_sum_title": "Сумма<br/>сделок",
+      "purchase_sum_tooltip": "полная сумма всех сделок без учёта комиссии и кэшбека",
+      "withdrawn_sum_title": "Сумма<br/>выплат",
+      "withdrawn_sum_tooltip": "средства, выплаченные Вам через Эдвайз"
+    },
+    "modal_success": {
+      "title": "Спасибо за Заказ!",
+      "description": "С Вами свяжется Ваш персональный менеджер."
+    },
+    "balance_card": {
+      "title": "Ваш баланс",
+      "tooltip": "текущие средства на балансе организации, готовые для вывода Сумма",
+      "to_enrollment": "К зачислению",
+      "withdraw_funds": "Вывод средств"
+    },
+    "net_profit": {
+      "title": "Чистая прибыль",
+      "tooltip": "итоговая прибыль бизнеса на текущий момент",
+      "profit_sum": "Всего",
+      "online_profit_sum": "Безналичный",
+      "cash_profit_sum": "Наличные"
+    },
+    "modal_withdrawal_funds": {
+      "title": "Заявка на вывод средств",
+      "amount": "Сумма вывода"
+    },
+    "report_create": {
+      "tooltip": "Выгрузить отчет за определенный период",
+      "button": "Отчет за период",
+      "period": "Выберите временной промежуток по которому хотите получить отчет.",
+      "date_start": "Дата начала отчета",
+      "date_end": "Дата окончания отчета",
+      "create": "Создать отчет"
+    },
+    "table": {
+      "date": "Дата",
+      "type": "Тип операции",
+      "cashback": "Кэшбэк",
+      "first_level": "1 ур.",
+      "other_level": "2—21 ур.",
+      "amount_adwise": "Сумма AdWise",
+      "manager_adwise": "Менеджер AdWise",
+      "amount": "Сумма"
+    }
+  },
+  "tariff": {
+    "title": "Тариф и оплата",
+    "not_tariff": "У вас не подключен тариф",
+    "tariff_name": "Ваш тариф",
+    "tariff_dye": "Истекает",
+    "year": "год",
+    "with_no_restrictions": "Без ограничений",
+    "code_maneger": "Введите код менеджера",
+    "message_how_setup_manager": "Для получения доступа к AdWise Вам необходимо назначить персонального менеджера. Введите Код менеджера или отправьте заявку для назначения Вам персонального менеджера.",
+    "restrictions": "{{limit}} сотрудник {{limit}} акций",
+    "modal_withdrawal_funds": {
+      "title": "Спасибо за Заказ!",
+      "message": "С Вами свяжется Ваш персональный менеджер. <br/>Также мы вышлем счёт на оплату по готовности на ваш электронный ящик: <b>{{email}}</b>"
+    },
+    "invoice_request_form": {
+      "title": "Запросить счёт на электронную почту",
+      "message": "Мы вышлем счёт на оплату по<br/>готовности на ваш электронный ящик",
+      "button": "Выслать счёт"
+    }
+  },
+  "adwise_business": {
+    "title": "AdWise Business",
+    "subtitle": "Приложение для бизнеса",
+    "message": "Сотрудники компании могут<br/>— формировать заказы для клиентов<br/>— отправлять счета в приложение пользователям<br/>— фиксировать оплату вне приложения AdWise<br/>— подтверждать завершение заказа<br/>"
+  },
+  "materials": {
+    "title": "Документы и материалы"
+  },
+  "feedback": {
+    "title": "Форма обратной связи",
+    "success_aplicetion_send": "Ваша заявка успешно отправлена",
+    "form": {
+      "description": "Описание",
+      "descriptionPlaceholder": "Введите ваше сообщение",
+      "files": "Приложить файлы",
+      "upload_document": "Загрузить документы"
+    }
+  },
+  "application_form": {
+    "title": "Форма подачи заявки",
+    "application_send_success": "Ваша заявка успешно отправлена, ожидайте ответа.",
+    "message_title": "Список документов для регистрации:",
+    "need_manager": "Мне нужен менеджер",
+    "send_application": "Отправить заявку",
+    "error_empty_paket": "Выберите желаемый тариф",
+    "message_description": "1. Сгенерировнный документ</br>2. Паспорт (первый разворот + регистрация)</br>3. Справка о постановке на учет ФЛ в качестве налогоплательщика НПД</br>4. Свидетельство о государственной регистрации физического лица в качестве индивидуального предпринимателя (ОГРНИП) или лист записи ЕГРН",
+    "form": {
+      "message_title": "Сообщение",
+      "message_placeholder": "Введите ваше сообщение",
+      "packet_title": "Тариф",
+      "email_title": "Email",
+      "email_placeholder": "support@adwise.cards",
+      "files_title": "Приложить файлы"
+    }
+  },
+  "manager": {
+    "title": "Дистрибьютор AdWise",
+    "subtitle": "Общая сводка по компаниям",
+    "wisewin_tariff": "Тариф WiseWin",
+    "your_balance": "Ваш баланс",
+    "frozen_points": "К зачислению",
+    "count_free_licenses": "Количество свободных лицензий",
+    "manager_percent_sum": "Сумма вознаграждения<br/>с продаж",
+    "packet_sum": "Сумма вознаграждения<br/>за продажи лицензий",
+    "packet_ref_sum": "Сумма реферальных вознаграждений<br/>за продажи лицензий",
+    "deposit_sum": "Сумма выплаченного<br/>вознаграждения",
+    "form_requsites_success_change": "Форма реквизитов успешно изменена",
+    "manager_organizations": "Количество подключенных<br/>компаний",
+    "tabs": {
+      "organization": "Общая сводка по компаниям",
+      "transaction": "Транзакции",
+      "requisiteson": "Реквизиты"
+    },
+    "table_organization": {
+      "organization": "Организация",
+      "amount": "Сумма сделок",
+      "coupons": "Ацкии всего / актив.",
+      "checks": "Кол-во чеков",
+      "emploes": "Кол-во сотруд.",
+      "tariff": "Тариф",
+      "date": "Дата окончания тарифа"
+    },
+    "table_transaction": {
+      "from": "От кого",
+      "type": "Тип начисления",
+      "amount": "Сумма начисления",
+      "date": "Дата / время"
+    }
+  },
+
+  "errors": {
+    "wrong_login_or_password": "Неверный логин или пароль",
+    "email_already_registered_system": "Данная почта уже зарегистрирована в системе"
+  },
+  "yupValidation": {
+    "required": "Обязательно к заполнению",
+    "email": "Некорректно введен Email адрес",
+    "phone": "Некорректно номер телефона",
+    "string": "Должна быть строка",
+    "min": "Минимум {{count}}",
+    "max": "Максимум {{count}} символов",
+    "max_amount": "Максимум {{count}}",
+    "date": "Запишите дату рождения в формате дд.мм.гггг"
+  },
+
+  "notification": {
+    "system_notification": "Системное уведомление",
+    "error": {
+      "title": "Ошибка",
+      "server_error": "Ошибка сервера",
+      "bank_point_creation_error": "Ошибка создания банковской точки",
+      "payment_terminal_change_error": "Ошибка изменения платежного терминала"
+    },
+    "success": {
+      "title_success": "Успешно",
+      "manager_installed": "Менеджер установлен",
+      "organization_updated": "Организация обновлена",
+      "organization_established": "Организация создана",
+      "request_change_payment_terminalsent": "Запрос на изменение платежного терминала успешно отправлен.",
+      "bank_point_changed_successfully": "Банковская точка успешно изменена",
+      "organization_change_request_sent_successfully": "Запрос на изменении организации успешно отправлен"
+    }
+  },
+
+  "common": {
+    "create": "Создать",
+    "save": "Сохранить",
+    "delete": "Удалить",
+    "choose": "Выбрать",
+    "cancel": "Отмена",
+    "reset": "Сбросить",
+    "add": "Добавить",
+    "fill": "Заполнить",
+    "close_window": "Закрыть окно",
+    "skip": "Пропустить",
+    "export": "Экспорт",
+    "accept": "Принять",
+    "send": "Отправить",
+    "subscribe": "Подписаться",
+    "tariff": "Тариф",
+    "search": "Поиск",
+    "no_package": "Нет пакета",
+    "before": "до",
+    "balance": "Баланс",
+    "company": "Компания",
+    "go_to": "Перейти",
+    "edit": "редактировать",
+    "in_app_purchase": "Покупка из приложения",
+    "download_requisites": "Скачать реквизиты",
+    "pieces_mini": "шт",
+    "filter": "Фильтр",
+    "proceed": "Продолжить",
+    "by": "По",
+    "total_found": "Всего найдено",
+    "elements": "элементов"
+  },
+  "document_types": {
+    "individual": "Самозанятый",
+    "ip": "ИП",
+    "ooo": "ООО"
+  },
+  "purchase_status": {
+    "paid": "Оплачен",
+    "not_paid": "Неоплачен",
+    "processing": "В процессе",
+    "complete": "Завершен"
+  }
+}

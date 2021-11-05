@@ -1,0 +1,129 @@
+{
+  "expo": {
+    "name": "AdWise Cards",
+    "slug": "ad-wise-app",
+    "version": "1.5.0",
+    "sdkVersion": "39.0.0",
+    "orientation": "portrait",
+    "primaryColor": "#2e1c53",
+    "userInterfaceStyle": "light",
+    "icon": "./assets/icon-app-ios.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "enabled": false
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "ad.wise.win",
+      "buildNumber": "2",
+      "icon": "./assets/icon-app-ios.png",
+      "googleServicesFile": "GoogleService-Info.plist",
+      "supportsTablet": false,
+      "config": {
+        "googleMapsApiKey": "AIzaSyAE3aQq2N0eY_LrWgXA9gE6NjnMmaNsHrk"
+      },
+      "splash": {
+        "image": "./assets/splash-ios.png",
+        "resizeMode": "cover",
+        "backgroundColor": "#ffffff"
+      },
+      "infoPlist": {
+        "UIBackgroundModes": [
+          "fetch",
+          "remote-notification"
+        ],
+        "UISupportedInterfaceOrientations": [
+          "UIInterfaceOrientationPortrait"
+        ],
+        "NSCameraUsageDescription": "С помощью камеры удобно считывать QR визиток и купонов для быстрого доступа к ним",
+        "NSMicrophoneUsageDescription": "application is used to scan the QR code and upload the user's profile picture and business card.",
+        "NSPhotoLibraryAddUsageDescription": "Для загрузки изображения профиля пользователя",
+        "NSPhotoLibraryUsageDescription": "Для загрузки изображения профиля пользователя",
+        "NSLocationAlwaysUsageDescription": "Поможет приложению подбирать для Вас наиболее близкие предложения в Вашем городе",
+        "NSLocationWhenInUseUsageDescription": "Поможет приложению подбирать для Вас наиболее близкие предложения в Вашем городе",
+        "UIApplicationDelegate": "Used to get the invitation code of the user when he went to applications using a link from the site",
+        "NSContactsUsageDescription": "Мы загружаем данные на наш сервер для поиска и отображения для Вас уже зарегистрированных пользователей среди ваших контактов"
+      },
+      "associatedDomains": [
+        "applinks:adwise.cards"
+      ]
+    },
+    "android": {
+      "versionCode": 48,
+      "permissions": [
+        "CAMERA",
+        "RECORD_AUDIO",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "READ_CONTACTS",
+        "WRITE_CONTACTS",
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION"
+      ],
+      "package": "ad.wise.win",
+      "icon": "./assets/icon-app-android.png",
+      "googleServicesFile": "google-services.json",
+      "useNextNotificationsApi": true,
+      "splash": {
+        "image": "./assets/splash.png",
+        "resizeMode": "cover",
+        "backgroundColor": "#ffffff"
+      },
+      "intentFilters": [
+        {
+          "autoVerify": true,
+          "action": "VIEW",
+          "data": [
+            {
+              "scheme": "https",
+              "host": "adwise.cards",
+              "pathPrefix": "/ref"
+            },
+            {
+              "scheme": "https",
+              "host": "adwise.cards",
+              "pathPrefix": "/card"
+            },
+            {
+              "scheme": "https",
+              "host": "adwise.cards",
+              "pathPrefix": "/special"
+            },
+            {
+              "scheme": "https",
+              "host": "adwise.cards",
+              "pathPrefix": "/organization"
+            }
+          ],
+          "category": [
+            "BROWSABLE",
+            "DEFAULT"
+          ]
+        }
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon-app-android.png",
+        "backgroundImage": "./assets/icon-app-android.png",
+        "backgroundColor": "#2e1c53"
+      }
+    },
+    "scheme": "ad.wise.win",
+    "backgroundColor": "#ffffff",
+    "notification": {
+      "icon": "./assets/icon-notification.png",
+      "iosDisplayInForeground": true,
+      "androidMode": "default"
+    },
+    "extra": {
+      "bugsnag": {
+        "apiKey": "011974a68d1c850aa9127ff9319d409d"
+      }
+    }
+  }
+}

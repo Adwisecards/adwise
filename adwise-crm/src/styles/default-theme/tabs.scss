@@ -1,0 +1,30 @@
+.ant-tabs-card.ant-tabs-top > .ant-tabs-nav .ant-tabs-tab {
+  background: #c4a2fc77;
+  border: 0;
+  margin: 0 !important;
+  padding: 4px;
+  &:first-child {
+    border-radius: 10px 0 0 10px;
+  }
+  &:nth-last-child(2) {
+    border-radius: 0 10px 10px 0;
+  }
+  &-btn {
+    background-color: transparent;
+    border-radius: 6px;
+    color: #000;
+    cursor: pointer;
+    outline: none;
+    padding: 10px 30px;
+    transition-property: background-color, color;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-out;
+    &:hover {
+      background: #ffffff77;
+    }
+  }
+  &-active > .ant-tabs-tab-btn {
+    background: #fff;
+    box-shadow: 0px 3.6px 4.8px rgba(168, 171, 184, 0.25);
+  }
+}
